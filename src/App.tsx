@@ -570,7 +570,7 @@ const menuData = [
         "name": "Peri Peri French Fry",
         "price": "₹120",
         "description": "French fries tossed in spicy peri peri seasoning.",
-        "image": "https://picsum.photos/seed/PeriPeriFrenchFry/800/600"
+        "image": ""
       },
       {
         "name": "Honey Chilli Potato",
