@@ -20,37 +20,37 @@ const menuData = [
         "name": "Mineral Water",
         "price": "₹20",
         "description": "Refreshing purified water.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Water%20bottles%20stock%20photo_%20Image%20of%20healthy,%20bottles%20-%2012522340.jpg?updatedAt=1772435361827"
       },
       {
         "name": "Plain Tea",
         "price": "₹10",
         "description": "Classic brewed black tea.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/25%20Homemade%20Tea%20Recipes%20for%20a%20Perfect%20Brew.jpg"
       },
       {
         "name": "Masala Tea",
         "price": "₹20",
         "description": "Spiced Indian tea with aromatic herbs.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Masala%20Chai%20(Spiced%20Tea)_Warm,%20spiced,%20and%20soul-soothing%20__%20The%20perfect%20sip%20to%20wind%20down%20the%20day__Why%20we%20love%20it_%20It_s%20bold,%20comforting,%20and%20fills%20your%20kitchen%20with%20cozy%20aromas.__.__MasalaChai%20_EveningSips%20_ChaiVibes"
       },
       {
         "name": "Coffee",
         "price": "₹30",
         "description": "Freshly brewed hot coffee.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/regular%20coffee.jpg?updatedAt=1759174155086"
       },
       {
         "name": "Cold Coffee",
         "price": "₹50",
         "description": "Chilled blended coffee with milk.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/cold%20coffee.jpg?updatedAt=1759174012948"
       },
       {
         "name": "Lassi",
         "price": "₹60",
         "description": "Traditional yogurt-based drink.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/lassi.jpg?updatedAt=1759174013497"
       },
       {
         "name": "Makhaniya Lassi",
@@ -155,7 +155,7 @@ const menuData = [
         "name": "Tomato Salad",
         "price": "₹30",
         "description": "Fresh tomato slices with light seasoning.",
-        "image": "https://picsum.photos/seed/TomatoSalad/800/600"
+        "image": ""
       },
       {
         "name": "Green Salad",
