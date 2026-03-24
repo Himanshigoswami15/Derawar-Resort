@@ -132,7 +132,7 @@ const menuData = [
         "name": "Makhaniya Lassi",
         "price": "₹80",
         "description": "Rich, creamy yogurt drink with butter.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/Only%20for%20Lassi%20lovers_.._"
+        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(3).jpg"
       }
     ]
   },
@@ -143,25 +143,25 @@ const menuData = [
         "name": "Mango Shake",
         "price": "₹90",
         "description": "Sweet and creamy mango blend.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Summer%20Mango%20Coconut%20Float%20Milkshake_%20Tropical___.jpg"
       },
       {
         "name": "Pineapple Shake",
         "price": "₹100",
         "description": "Tropical pineapple milkshake.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Homemade%20Pineapple%20Milkshake%20Recipe%20-%20Ninja%20Creami%20Ice%20Cream%20Recipes%20_Healthy%20Protein%20Recipes_.jpg"
       },
       {
         "name": "Chocolat Shake",
         "price": "₹80",
         "description": "Rich chocolate blended with milk.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/11%20Easy%20&%20Healthy%20Breakfast%20Smoothie%20Recipes!.jpg"
       },
       {
         "name": "Banana Shake",
         "price": "₹80",
         "description": "Smooth and creamy banana shake.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Banana%20Ice-cream.jpg"
       },
       {
         "name": "Strawberry Shake",
@@ -178,43 +178,43 @@ const menuData = [
         "name": "Veg Sweet Corn Soup",
         "price": "₹180",
         "description": "Comforting soup with sweet corn kernels.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Corn%20Soup.jpg"
       },
       {
         "name": "Veg Clear Soup",
         "price": "₹180",
         "description": "Light and healthy vegetable broth.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Sweet%20Corn%20Clear%20Soup%20Recipe%20_%20Cook%20Click%20N%20Devour!!!.jpg"
       },
       {
         "name": "Veg Hot and Sour Soup",
         "price": "₹180",
         "description": "Spicy and tangy vegetable soup.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Vegetarian%20hot%20and%20sour%20soup%20is%20an%20easy%20to%20make%20meal%20for%20cold%20days_%20It%20is%20packed%20with%20vegetables,%20lightly%20seasoned%20and%20super%20comforting!.jpg"
       },
       {
         "name": "Veg Manchaw Soup",
         "price": "₹200",
         "description": "Spicy Indo-Chinese soup with crispy noodles.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/212K%20views%20_%202_7K%20reactions%20_%20Restaurant%20Style%20Veg%20Manchow%20Soup%20Recipe%20_%20%E0%A4%B5%E0%A5%87%E0%A4%9C%20%E0%A4%AE%E0%A4%A8%E0%A4%9A%E0%A4%BE%E0%A4%93%20%E0%A4%B8%E0%A5%82%E0%A4%AA%20_%20Chef%20Sanjyot%20Keer%20_%20Your%20Food%20Lab%20_%20Facebook.jpg"
       },
       {
         "name": "Cream of Tomato",
         "price": "₹170",
         "description": "Rich and creamy tomato soup.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Roasted%20Tomato%20Soup.jpg"
       },
       {
         "name": "Cream of Mushroom Soup",
         "price": "₹180",
         "description": "Velvety soup with fresh mushrooms.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/CREAM%20OF%20MUSHROOM%20SOUP.jpg?updatedAt=1759147132959"
       },
       {
         "name": "Lemon Coriander Soup",
         "price": "₹200",
         "description": "Refreshing citrus and herb broth.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/LEMON%20CORIANDER%20SOUP.webp?updatedAt=1759174014597"
       }
     ]
   },
