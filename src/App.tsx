@@ -225,37 +225,37 @@ const menuData = [
         "name": "Onion Salad",
         "price": "₹20",
         "description": "Freshly sliced onions with lemon and chaat masala.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Sumac%20Onions%20(Turkish%20Onion%20Salad).jpg?updatedAt=1772378441744"
       },
       {
         "name": "Tomato Salad",
         "price": "₹30",
         "description": "Fresh tomato slices with light seasoning.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/My%20favourite%20Tomato%20Salad%20(1).jpg?updatedAt=1772378441737"
       },
       {
         "name": "Green Salad",
         "price": "₹60",
         "description": "Assorted fresh seasonal vegetables.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Try%20this%20fresh%20mixed%20green%20salad%20with%20tangy%20balsamic%20vinaigrette,%20packed%20with%20crisp%20greens%20and%20veggies_%20Simple,%20delicious,%20and%20healthy!%20_%20Mixed%20Greens%20Salad%20_%20Easy%20Side%20Salad%20Recipe%20_%20Salad%20Recipes%20_.jpg"
       },
       {
         "name": "Cucumber Salad",
         "price": "₹50",
         "description": "Cool and crisp cucumber slices.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Cucumber%20Salad%20with%20Herb%20Garlic%20Vinaigrette.jpg?updatedAt=1772378441759"
       },
       {
         "name": "Russian Salad",
         "price": "₹80",
         "description": "Mixed vegetables and fruits in creamy mayo dressing.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/RUSSIAN%20SALAD.webp?updatedAt=1759147890223"
       },
       {
         "name": "Kachumber Salad",
         "price": "₹50",
         "description": "Finely chopped mixed vegetable salad.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Kachumber%20Salad.jpg?updatedAt=1772378441712"
       }
     ]
   },
