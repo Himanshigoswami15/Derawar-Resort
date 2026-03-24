@@ -167,7 +167,7 @@ const menuData = [
         "name": "Strawberry Shake",
         "price": "₹80",
         "description": "Sweet strawberry flavored milkshake.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Best%20strawberry%20milkshake%20recipe%20without%20ice%20cream.jpg?updatedAt=1774363764266"
       }
     ]
   },
@@ -266,25 +266,25 @@ const menuData = [
         "name": "Cheese Roll",
         "price": "₹200",
         "description": "Crispy roll stuffed with melted cheese.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Jenan%20on%20Instagram_%20_I_ve%20been%20seeing%20some%20of%20my%20fellow%20food%20bloggers%20posting%20these%20cheese%20rolls%20and%20I%20knew%20I%20had%20to%20make%20some!%20%20Thanks%20@cookingwithnadak%20__.jpg"
       },
       {
         "name": "Veg Cheese Spring Roll",
         "price": "₹220",
         "description": "Crispy rolls with vegetables and cheese.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Cheese%20Spring%20Rolls.jpg"
       },
       {
         "name": "Veg Spring Roll",
         "price": "₹210",
         "description": "Classic crispy vegetable stuffed rolls.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/SPRING%20ROLLS.jpeg?updatedAt=1758292990786"
       },
       {
         "name": "Paneer Roll",
         "price": "₹220",
         "description": "Spiced cottage cheese wrapped in a flatbread.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Paneer%20Kathi%20Roll.jpg?updatedAt=1772709608129"
       }
     ]
   },
@@ -295,19 +295,19 @@ const menuData = [
         "name": "Roasted Papad",
         "price": "₹30",
         "description": "Crispy roasted lentil wafer.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Papad_.jpg?updatedAt=1772434847368"
       },
       {
         "name": "Masala Roasted Papad",
         "price": "₹50",
         "description": "Roasted wafer topped with spicy onion-tomato mix.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/masala-papad-1000x1000.webp?updatedAt=1759147518990"
       },
       {
         "name": "Fry Papad",
         "price": "₹40",
         "description": "Deep-fried crispy lentil wafer.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/%E0%AA%B5%E0%AA%BE%E0%AA%A8%E0%AA%B5%E0%AA%BE%20%E0%AA%95%E0%AA%B9%E0%AB%8B%20%E0%AA%95%E0%AB%87%20%E0%AA%AB%E0%AA%BE%E0%AA%AB%E0%AA%A1%E0%AA%BE%20-%20%E0%AA%A4%E0%AB%87%E0%AA%A8%E0%AB%80%20%E0%AA%93%E0%AA%B0%E0%AB%80%E0%AA%9C%E0%AB%80%E0%AA%A8%E0%AA%B2%20%E0%AA%B0%E0%AB%80%E0%AA%A4%E0%AA%A5%E0%AB%80%20_%20%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A4%B5%E0%A4%BE%20%E0%A4%B0%E0%A5%87%E0%A4%B8%E0%A4%BF%E0%A4%AA%E0%A5%80%20_%20Vanva%20Recipe%20(1).jpg?updatedAt=1772434650565"
       },
       {
         "name": "Fry Masala Papad",
