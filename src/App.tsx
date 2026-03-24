@@ -1340,7 +1340,7 @@ export default function App() {
               className="w-72 md:w-96 lg:w-[32rem] mb-2 object-contain"
               style={{ 
                 transformStyle: "preserve-3d",
-                filter: "brightness(0) saturate(100%) invert(73%) sepia(35%) saturate(760%) hue-rotate(352deg) brightness(92%) contrast(89%) drop-shadow(0 25px 25px rgba(0,0,0,0.3))"
+                filter: "drop-shadow(0 25px 25px rgba(0,0,0,0.3))"
               }}
             />
           </motion.div>
