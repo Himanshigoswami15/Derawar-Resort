@@ -1225,6 +1225,7 @@ const menuData = [
 
 const TiltImage = ({ src, alt }: { src: string, alt: string }) => {
   const ref = useRef<HTMLDivElement>(null);
+  const [isLoaded, setIsLoaded] = useState(false);
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
@@ -1259,17 +1260,23 @@ const TiltImage = ({ src, alt }: { src: string, alt: string }) => {
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
         style={{ rotateX, rotateY, transformStyle: "preserve-3d" }}
-        className="rect-image w-full aspect-[4/3] relative cursor-pointer"
+        className="rect-image w-full aspect-[4/3] relative cursor-pointer overflow-hidden rounded-xl bg-[var(--color-bg-card)]/50"
       >
         <div
-          className="rect-image-inner"
+          className="rect-image-inner w-full h-full"
           style={{ transform: "translateZ(40px)" }}
         >
+          {/* Skeleton Loader */}
+          {!isLoaded && (
+            <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-bg-card)] via-[var(--color-accent)]/20 to-[var(--color-bg-card)] animate-pulse" />
+          )}
+          
           <img
             src={src}
             alt={alt}
             referrerPolicy="no-referrer"
-            className="w-full h-full object-cover"
+            onLoad={() => setIsLoaded(true)}
+            className={`w-full h-full object-cover transition-opacity duration-700 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
           />
         </div>
         {/* Subtle 3D shadow/glow behind the image */}
