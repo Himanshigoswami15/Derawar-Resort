@@ -1334,7 +1334,7 @@ export default function App() {
                 repeat: Infinity, 
                 ease: "easeInOut" 
               }}
-              src="https://ik.imagekit.io/j1fgksdwx/Derawar%20(5).png" 
+              src="https://ik.imagekit.io/j1fgksdwx/Derawar%20(6).png" 
               alt="Derawar Logo" 
               referrerPolicy="no-referrer"
               className="w-72 md:w-96 lg:w-[32rem] mb-2 object-contain"
