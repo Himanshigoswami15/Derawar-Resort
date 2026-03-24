@@ -12,6 +12,82 @@ const Ornament = () => (
   </svg>
 );
 
+const JharokhaTop = () => (
+  <svg viewBox="0 0 1200 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-24 md:h-32 lg:h-48 text-[var(--color-accent)] block drop-shadow-2xl">
+    <defs>
+      <linearGradient id="jharokha-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stopColor="var(--color-bg-card)" stopOpacity="0.1" />
+        <stop offset="100%" stopColor="var(--color-bg-card)" stopOpacity="0.7" />
+      </linearGradient>
+      <g id="ornament" fill="currentColor" stroke="currentColor" strokeWidth="0.5">
+        <line x1="0" y1="0" x2="0" y2="15" strokeOpacity="0.5" />
+        <path d="M 0 15 L 4 22 L 0 29 L -4 22 Z" fillOpacity="0.6" stroke="none" />
+        <circle cx="0" cy="33" r="1.5" fillOpacity="0.8" stroke="none" />
+      </g>
+    </defs>
+
+    {/* Background Fill */}
+    <path d="M 1 200 
+             L 1 180 
+             L 40 180 
+             C 40 100, 180 150, 230 120 
+             C 280 90, 370 100, 420 70 
+             C 470 40, 550 50, 600 20 
+             C 650 50, 730 40, 780 70 
+             C 830 100, 920 90, 970 120 
+             C 1020 150, 1160 100, 1160 180 
+             L 1199 180 
+             L 1199 200 Z" 
+          fill="url(#jharokha-grad)" />
+
+    {/* Main Outer Stroke */}
+    <path d="M 1 200 
+             L 1 180 
+             L 40 180 
+             C 40 100, 180 150, 230 120 
+             C 280 90, 370 100, 420 70 
+             C 470 40, 550 50, 600 20 
+             C 650 50, 730 40, 780 70 
+             C 830 100, 920 90, 970 120 
+             C 1020 150, 1160 100, 1160 180 
+             L 1199 180 
+             L 1199 200" 
+          fill="none" stroke="currentColor" strokeWidth="2" strokeOpacity="0.4" 
+          vectorEffect="non-scaling-stroke" />
+
+    {/* Inner Decorative Line 1 */}
+    <path d="M 40 180 
+             C 40 100, 180 150, 230 120 
+             C 280 90, 370 100, 420 70 
+             C 470 40, 550 50, 600 20 
+             C 650 50, 730 40, 780 70 
+             C 830 100, 920 90, 970 120 
+             C 1020 150, 1160 100, 1160 180" 
+          fill="none" stroke="currentColor" strokeWidth="1" strokeOpacity="0.3" 
+          transform="translate(0, 6)"
+          vectorEffect="non-scaling-stroke" />
+
+    {/* Inner Decorative Line 2 */}
+    <path d="M 40 180 
+             C 40 100, 180 150, 230 120 
+             C 280 90, 370 100, 420 70 
+             C 470 40, 550 50, 600 20 
+             C 650 50, 730 40, 780 70 
+             C 830 100, 920 90, 970 120 
+             C 1020 150, 1160 100, 1160 180" 
+          fill="none" stroke="currentColor" strokeWidth="0.5" strokeOpacity="0.2" 
+          transform="translate(0, 12)"
+          vectorEffect="non-scaling-stroke" />
+
+    {/* Hanging Ornaments */}
+    <use href="#ornament" x="230" y="120" />
+    <use href="#ornament" x="420" y="70" />
+    <use href="#ornament" x="600" y="20" />
+    <use href="#ornament" x="780" y="70" />
+    <use href="#ornament" x="970" y="120" />
+  </svg>
+);
+
 const menuData = [
   {
     "category": "Beverage",
@@ -1229,23 +1305,19 @@ export default function App() {
       </div>
 
       <div className="content-wrapper max-w-6xl mx-auto px-4 py-16 sm:px-6 lg:px-8 relative z-10">
-        <div className="border-4 border-double border-[var(--color-accent)]/30 rounded-3xl p-6 md:p-12 bg-[var(--color-bg-card)]/40 backdrop-blur-sm shadow-2xl relative">
+        
+        {/* Jharokha Top Border */}
+        <div className="w-full relative z-20 -mb-[1px]">
+          <JharokhaTop />
+        </div>
+
+        <div className="border-x-2 border-b-2 border-t-0 border-[var(--color-accent)]/40 rounded-b-3xl p-6 md:p-12 bg-[var(--color-bg-card)]/40 backdrop-blur-sm shadow-2xl relative z-10 pt-0">
           {/* Corner Ornaments */}
-          <div className="absolute top-4 left-4 w-8 h-8 border-t-2 border-l-2 border-[var(--color-accent)] opacity-60"></div>
-          <div className="absolute top-4 right-4 w-8 h-8 border-t-2 border-r-2 border-[var(--color-accent)] opacity-60"></div>
           <div className="absolute bottom-4 left-4 w-8 h-8 border-b-2 border-l-2 border-[var(--color-accent)] opacity-60"></div>
           <div className="absolute bottom-4 right-4 w-8 h-8 border-b-2 border-r-2 border-[var(--color-accent)] opacity-60"></div>
           
         {/* Header */}
-        <header className="text-center mb-24 flex flex-col items-center">
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.2 }}
-            className="mb-8"
-          >
-            <Ornament />
-          </motion.div>
+        <header className="text-center mb-8 flex flex-col items-center pt-8">
           <motion.div
             initial={{ opacity: 0, scale: 0.8, rotateX: 45 }}
             animate={{ opacity: 1, scale: 1, rotateX: 0 }}
@@ -1265,7 +1337,7 @@ export default function App() {
               src="https://ik.imagekit.io/j1fgksdwx/Derawar%20(5).png" 
               alt="Derawar Logo" 
               referrerPolicy="no-referrer"
-              className="w-72 md:w-96 lg:w-[32rem] mb-8 object-contain"
+              className="w-72 md:w-96 lg:w-[32rem] mb-2 object-contain"
               style={{ 
                 transformStyle: "preserve-3d",
                 filter: "brightness(0) saturate(100%) invert(73%) sepia(35%) saturate(760%) hue-rotate(352deg) brightness(92%) contrast(89%) drop-shadow(0 25px 25px rgba(0,0,0,0.3))"
@@ -1283,7 +1355,7 @@ export default function App() {
         </header>
 
         {/* Menu Sections */}
-        <main className="space-y-32">
+        <main className="space-y-20">
           {menuData.map((section, idx) => (
             <section key={idx} id={section.category.replace(/\s+/g, '-')} className="relative pt-8 scroll-mt-16">
               
@@ -1292,7 +1364,7 @@ export default function App() {
                 whileInView={{ opacity: 1, scale: 1, rotateX: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.8 }}
-                className="flex flex-col items-center justify-center mb-20"
+                className="flex flex-col items-center justify-center mb-12"
                 style={{ perspective: 1000 }}
               >
                 <Ornament />
@@ -1316,9 +1388,11 @@ export default function App() {
                     className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 group relative p-2 -mx-2 rounded-2xl transition-all duration-500 hover:bg-[var(--color-accent)]/5 hover:shadow-[inset_0_0_30px_rgba(212,175,55,0.05)]"
                     style={{ perspective: 1000 }}
                   >
-                    <div className="shrink-0 relative z-10">
-                      <TiltImage src={item.image} alt={item.name} />
-                    </div>
+                    {item.image && (
+                      <div className="shrink-0 relative z-10">
+                        <TiltImage src={item.image} alt={item.name} />
+                      </div>
+                    )}
                     
                       <div className="flex flex-col justify-center flex-grow w-full relative z-10">
                         <div className="flex items-center justify-between w-full mb-1">
