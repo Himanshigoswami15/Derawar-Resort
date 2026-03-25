@@ -307,31 +307,31 @@ const menuData = [
         "name": "Fry Papad",
         "price": "₹40",
         "description": "Deep-fried crispy lentil wafer.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/%E0%AA%B5%E0%AA%BE%E0%AA%A8%E0%AA%B5%E0%AA%BE%20%E0%AA%95%E0%AA%B9%E0%AB%8B%20%E0%AA%95%E0%AB%87%20%E0%AA%AB%E0%AA%BE%E0%AA%AB%E0%AA%A1%E0%AA%BE%20-%20%E0%AA%A4%E0%AB%87%E0%AA%A8%E0%AB%80%20%E0%AA%93%E0%AA%B0%E0%AB%80%E0%AA%9C%E0%AB%80%E0%AA%A8%E0%AA%B2%20%E0%AA%B0%E0%AB%80%E0%AA%A4%E0%AA%A5%E0%AB%80%20_%20%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A4%B5%E0%A4%BE%20%E0%A4%B0%E0%A5%87%E0%A4%B8%E0%A4%BF%E0%A4%AA%E0%A5%80%20_%20Vanva%20Recipe%20(1).jpg?updatedAt=1772434650565"
+        "image": "https://ik.imagekit.io/j1fgksdwx/Papad_.jpg?updatedAt=17724348473685"
       },
       {
         "name": "Fry Masala Papad",
         "price": "₹60",
         "description": "Fried wafer with spicy vegetable topping.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Masala%20Papad%20(2).jpg"
       },
       {
         "name": "Plain Khichiya",
         "price": "₹50",
         "description": "Traditional roasted rice flour cracker.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/%E0%AA%B5%E0%AA%BE%E0%AA%A8%E0%AA%B5%E0%AA%BE%20%E0%AA%95%E0%AA%B9%E0%AB%8B%20%E0%AA%95%E0%AB%87%20%E0%AA%AB%E0%AA%BE%E0%AA%AB%E0%AA%A1%E0%AA%BE%20-%20%E0%AA%A4%E0%AB%87%E0%AA%A8%E0%AB%80%20%E0%AA%93%E0%AA%B0%E0%AB%80%E0%AA%9C%E0%AB%80%E0%AA%A8%E0%AA%B2%20%E0%AA%B0%E0%AB%80%E0%AA%A4%E0%AA%A5%E0%AB%80%20_%20%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A4%B5%E0%A4%BE%20%E0%A4%B0%E0%A5%87%E0%A4%B8%E0%A4%BF%E0%A4%AA%E0%A5%80%20_%20Vanva%20Recipe%20(1).jpg?updatedAt=1772434650565"
       },
       {
         "name": "Masala Khichiya",
         "price": "₹80",
         "description": "Rice cracker topped with spicy masala.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Leela%20sirvi%20on%20Instagram_%20_Masala%20Khichiya_%20_%20.%20.%20Khichiya%20is%20a%20Rajasthani%20papad%20made%20with%20refined%20_%20rice%20_%20maize%20_%20ragi%20flour.%20Masala%20khichiya%20is%20the%20best%20anytime__"
       },
       {
         "name": "Cheese Masala Khichiya",
         "price": "₹100",
         "description": "Spicy rice cracker loaded with cheese.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Aloo%20Chana%20Papdi%20Chaat.jpg"
       }
     ]
   },
@@ -342,55 +342,55 @@ const menuData = [
         "name": "Butter Poha",
         "price": "₹50",
         "description": "Flattened rice cooked with spices and topped with butter.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Poha%20Recipe.jpg"
       },
       {
         "name": "Plain Poha",
         "price": "₹30",
         "description": "Light and healthy flattened rice breakfast.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Poha%20(1).jpg"
       },
       {
         "name": "Masala Poha",
         "price": "₹60",
         "description": "Spicy and tangy flattened rice.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Poha.jpg"
       },
       {
         "name": "Veg Upma",
         "price": "₹70",
         "description": "Savory semolina porridge with vegetables.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/upma.webp?updatedAt=1758292980367"
       },
       {
         "name": "Masala Dosa",
         "price": "₹100",
         "description": "Crispy crepe stuffed with spiced potato filling.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Crispy%20Masala%20Dosa%20full%20Recipe%20_.jpg"
       },
       {
         "name": "Plain Dosa",
         "price": "₹70",
         "description": "Classic thin and crispy South Indian crepe.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(4).jpg"
       },
       {
         "name": "Rava Dosa",
         "price": "₹120",
         "description": "Crispy semolina crepe with spices.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Rava%20Dosa%20-Instant%20Onion%20Rava%20Dosa%20-%20Tomato%20Blues.jpg"
       },
       {
         "name": "Pav Bhaji",
         "price": "₹70",
         "description": "Spicy mixed vegetable mash served with buttered bread.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Pav%20Bhaji.jpg"
       },
       {
         "name": "Extra Pav (1pc)",
         "price": "₹20",
         "description": "Additional buttered bread roll.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Hutterite%20bun%20recipe%20-%20%C2%A0Hutterite%20Br%C3%B6tchen.jpg"
       }
     ]
   },
@@ -401,19 +401,19 @@ const menuData = [
         "name": "Aloo Paratha",
         "price": "₹50",
         "description": "Whole wheat flatbread stuffed with spiced potatoes.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Aloo%20Paratha%20Full%20Recipe%20in%20English%20_.jpg"
       },
       {
         "name": "Gobi Paratha",
         "price": "₹60",
         "description": "Flatbread stuffed with spiced cauliflower.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/How%20to%20Make%20Gobi%20Paratha%20_%20Easy%20Stuffed%20Paratha%20Recipe.jpg"
       },
       {
         "name": "Paneer Paratha",
         "price": "₹80",
         "description": "Flatbread stuffed with seasoned cottage cheese.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/PANEER%20PARATHA%20WITH%20CURD.jpg?updatedAt=1759175503156"
       },
       {
         "name": "Mix Veg Paratha",
@@ -1367,12 +1367,11 @@ export default function App() {
             <section key={idx} id={section.category.replace(/\s+/g, '-')} className="relative pt-8 scroll-mt-16">
               
               <motion.div 
-                initial={{ opacity: 0, scale: 0.9, rotateX: -30 }}
-                whileInView={{ opacity: 1, scale: 1, rotateX: 0 }}
+                initial={{ opacity: 0, scale: 0.95, y: 20 }}
+                whileInView={{ opacity: 1, scale: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.8 }}
                 className="flex flex-col items-center justify-center mb-12"
-                style={{ perspective: 1000 }}
               >
                 <Ornament />
                 <div className="flex items-center justify-center mt-6">
@@ -1388,12 +1387,11 @@ export default function App() {
                 {section.items.map((item, itemIdx) => (
                   <motion.div 
                     key={itemIdx} 
-                    initial={{ opacity: 0, y: 50, rotateY: 15 }}
-                    whileInView={{ opacity: 1, y: 0, rotateY: 0 }}
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: "-50px" }}
                     transition={{ duration: 0.8, delay: (itemIdx % 4) * 0.1 }}
                     className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 group relative p-2 -mx-2 rounded-2xl transition-all duration-500 hover:bg-[var(--color-accent)]/5 hover:shadow-[inset_0_0_30px_rgba(212,175,55,0.05)]"
-                    style={{ perspective: 1000 }}
                   >
                     {item.image && (
                       <div className="shrink-0 relative z-10">
