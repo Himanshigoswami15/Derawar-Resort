@@ -431,13 +431,13 @@ const menuData = [
         "name": "Palak Paratha",
         "price": "₹60",
         "description": "Healthy flatbread made with spinach.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Healthy%20Spinach%20Paratha%20Recipe%20for%20Breakfast.jpg"
       },
       {
         "name": "Plain Paratha",
         "price": "₹40",
         "description": "Classic flaky whole wheat flatbread.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(5).jpg"
       }
     ]
   },
@@ -448,19 +448,19 @@ const menuData = [
         "name": "Plain Maggie",
         "price": "₹40",
         "description": "Classic instant noodles.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/If%20you_ve%20got%20a%20pack%20of%20instant%20ramen%20and%20a%20slice%20of%20cheese%20in%20your%20fridge,%20you're%20already%20halfway%20to%20making%20one%20of%20my%20favorite%20guilty-pleas.%20Perfect%20for%20late-night%20cravings%20or%20those%20days%20when%20dinner%20feels%20like%20a%20chore_"
       },
       {
         "name": "Masala Maggie",
         "price": "₹50",
         "description": "Instant noodles cooked with extra spices.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(5).jpg"
       },
       {
         "name": "Cheese Maggie",
         "price": "₹60",
         "description": "Cheesy and creamy instant noodles.",
-        "image": "0"
+        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(7).jpg"
       }
     ]
   },
