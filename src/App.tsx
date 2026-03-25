@@ -1224,48 +1224,14 @@ const menuData = [
 ];
 
 const TiltImage = ({ src, alt }: { src: string, alt: string }) => {
-  const ref = useRef<HTMLDivElement>(null);
   const [isLoaded, setIsLoaded] = useState(false);
-  const x = useMotionValue(0);
-  const y = useMotionValue(0);
-
-  const mouseXSpring = useSpring(x, { stiffness: 300, damping: 30 });
-  const mouseYSpring = useSpring(y, { stiffness: 300, damping: 30 });
-
-  const rotateX = useTransform(mouseYSpring, [-0.5, 0.5], ["15deg", "-15deg"]);
-  const rotateY = useTransform(mouseXSpring, [-0.5, 0.5], ["-15deg", "15deg"]);
-
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (!ref.current) return;
-    const rect = ref.current.getBoundingClientRect();
-    const width = rect.width;
-    const height = rect.height;
-    const mouseX = e.clientX - rect.left;
-    const mouseY = e.clientY - rect.top;
-    const xPct = mouseX / width - 0.5;
-    const yPct = mouseY / height - 0.5;
-    x.set(xPct);
-    y.set(yPct);
-  };
-
-  const handleMouseLeave = () => {
-    x.set(0);
-    y.set(0);
-  };
 
   return (
-    <div style={{ perspective: 1200 }} className="w-full max-w-[320px]">
-      <motion.div
-        ref={ref}
-        onMouseMove={handleMouseMove}
-        onMouseLeave={handleMouseLeave}
-        style={{ rotateX, rotateY, transformStyle: "preserve-3d" }}
-        className="rect-image w-full aspect-[4/3] relative cursor-pointer overflow-hidden rounded-xl bg-[var(--color-bg-card)]/50"
+    <div className="w-full max-w-[320px]">
+      <div
+        className="rect-image w-full aspect-[4/3] relative overflow-hidden rounded-xl bg-[var(--color-bg-card)]/50"
       >
-        <div
-          className="rect-image-inner w-full h-full"
-          style={{ transform: "translateZ(40px)" }}
-        >
+        <div className="rect-image-inner w-full h-full">
           {/* Skeleton Loader */}
           {!isLoaded && (
             <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-bg-card)] via-[var(--color-accent)]/20 to-[var(--color-bg-card)] animate-pulse" />
@@ -1279,12 +1245,7 @@ const TiltImage = ({ src, alt }: { src: string, alt: string }) => {
             className={`w-full h-full object-cover transition-opacity duration-700 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
           />
         </div>
-        {/* Subtle 3D shadow/glow behind the image */}
-        <div 
-          className="absolute inset-0 rounded-xl bg-[var(--color-accent)] opacity-0 blur-2xl transition-opacity duration-500 hover:opacity-20"
-          style={{ transform: "translateZ(-20px)" }}
-        />
-      </motion.div>
+      </div>
     </div>
   );
 };
