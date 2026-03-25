@@ -524,7 +524,7 @@ const menuData = [
         "name": "Veg Club Sandwich",
         "price": "₹250",
         "description": "Multi-layered sandwich with veggies and cheese.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/Sarthak%20Jain%E2%9C%B4%EF%B8%8F%20on%20Instagram_%20_Paneer%20tikka%20sandwich%20_%20_%20Taste-O-Meter-5_5_%20.%20Dm%20for%20exact%20location%20_%EF%B8%8F%20.%20Follow%20@wannabefoodie69%20%E2%99%A5%EF%B8%8F%20For%20more%20food%20related%20stuff%20.__?updatedAt=1774429194675"
+        "image": "https://ik.imagekit.io/j1fgksdwx/Merrie%20Berrie%20Veg%20Club%20(Three%20Layerd%20Sandwich,Vegetable%20Patty,Sliced%20Veg%20Cheese%20&%20Mayo).jpg"
       }
     ]
   },
@@ -823,7 +823,7 @@ const menuData = [
         "name": "Punjabi Dal Tadka",
         "price": "₹170",
         "description": "Spicy and robust Punjabi style tempered lentils.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/Punjabi%20Toor%20Dal%20Tadka%20and%20rice%20is%20the%20ultimate%20comfort%20food.jpg?updatedAt=1772360785394
+        "image": "https://ik.imagekit.io/j1fgksdwx/Punjabi%20Toor%20Dal%20Tadka%20and%20rice%20is%20the%20ultimate%20comfort%20food.jpg?updatedAt=1772360785394"
       },
       {
         "name": "Dal Panch Ratan",
@@ -1245,8 +1245,52 @@ const TiltImage = ({ src, alt }: { src: string, alt: string }) => {
 };
 
 export default function App() {
+  const [activeCategory, setActiveCategory] = useState(menuData[0].category);
+  const navRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visibleEntries = entries.filter(entry => entry.isIntersecting);
+        if (visibleEntries.length > 0) {
+          const mostVisible = visibleEntries.reduce((prev, current) => 
+            (prev.intersectionRatio > current.intersectionRatio) ? prev : current
+          );
+          
+          const categoryId = mostVisible.target.id;
+          const matchedCategory = menuData.find(c => c.category.replace(/\s+/g, '-') === categoryId);
+          if (matchedCategory) {
+            setActiveCategory(matchedCategory.category);
+          }
+        }
+      },
+      {
+        rootMargin: '-100px 0px -60% 0px',
+        threshold: [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+      }
+    );
+
+    const sections = document.querySelectorAll('section[id]');
+    sections.forEach(section => observer.observe(section));
+
+    return () => {
+      sections.forEach(section => observer.unobserve(section));
+    };
+  }, []);
+
+  useEffect(() => {
+    if (navRef.current) {
+      const activeElement = navRef.current.querySelector(`[data-category="${activeCategory}"]`) as HTMLElement;
+      if (activeElement) {
+        const container = navRef.current;
+        const scrollLeft = activeElement.offsetLeft - container.offsetWidth / 2 + activeElement.offsetWidth / 2;
+        container.scrollTo({ left: scrollLeft, behavior: 'smooth' });
+      }
+    }
+  }, [activeCategory]);
+
   return (
-    <div className="min-h-screen bg-texture overflow-hidden relative">
+    <div className="min-h-screen bg-texture relative">
       
       {/* Floating Navigation */}
       <div className="fixed right-6 top-1/2 -translate-y-1/2 z-50 hidden xl:flex flex-col gap-4 items-center">
@@ -1316,10 +1360,48 @@ export default function App() {
           </motion.p>
         </header>
 
+        {/* Category Navigation (Horizontal Scroll) */}
+        <div className="sticky top-0 z-40 w-auto mb-8 -mx-6 md:-mx-12 bg-[var(--color-bg-card)]/90 backdrop-blur-md border-y border-[var(--color-accent)]/20">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.7, duration: 0.8 }}
+            className="relative py-4 px-6 md:px-12"
+          >
+            {/* Fading edges for scroll indication */}
+            <div className="absolute left-0 top-0 bottom-0 w-12 bg-gradient-to-r from-[var(--color-bg-card)] to-transparent z-10 pointer-events-none"></div>
+            <div className="absolute right-0 top-0 bottom-0 w-12 bg-gradient-to-l from-[var(--color-bg-card)] to-transparent z-10 pointer-events-none"></div>
+            
+            <div 
+              ref={navRef}
+              className="flex items-center gap-3 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] scroll-smooth relative z-0 px-4"
+            >
+              {menuData.map((section, idx) => {
+                const isActive = activeCategory === section.category;
+                return (
+                  <a
+                    key={idx}
+                    href={`#${section.category.replace(/\s+/g, '-')}`}
+                    data-category={section.category}
+                    onClick={() => setActiveCategory(section.category)}
+                    className={`px-5 py-2 rounded-full border transition-all duration-300 font-cinzel text-xs md:text-sm tracking-widest whitespace-nowrap flex-shrink-0 ${
+                      isActive 
+                        ? 'bg-[var(--color-accent)] text-[var(--color-bg)] border-[var(--color-accent)] shadow-[0_0_15px_rgba(212,175,55,0.4)]' 
+                        : 'border-[var(--color-accent)]/40 text-[var(--color-accent)] hover:bg-[var(--color-accent)]/10 shadow-[0_0_10px_rgba(212,175,55,0.1)] hover:shadow-[0_0_20px_rgba(212,175,55,0.2)]'
+                    }`}
+                  >
+                    {section.category}
+                  </a>
+                );
+              })}
+            </div>
+          </motion.div>
+        </div>
+
         {/* Menu Sections */}
         <main className="space-y-20">
           {menuData.map((section, idx) => (
-            <section key={idx} id={section.category.replace(/\s+/g, '-')} className="relative pt-8 scroll-mt-16">
+            <section key={idx} id={section.category.replace(/\s+/g, '-')} className="relative pt-8 scroll-mt-32">
               
               <motion.div 
                 initial={{ opacity: 0, scale: 0.95, y: 20 }}
