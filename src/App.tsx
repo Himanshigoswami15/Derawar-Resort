@@ -199,7 +199,7 @@ const menuData = [
         "image": "https://ik.imagekit.io/j1fgksdwx/212K%20views%20_%202_7K%20reactions%20_%20Restaurant%20Style%20Veg%20Manchow%20Soup%20Recipe%20_%20%E0%A4%B5%E0%A5%87%E0%A4%9C%20%E0%A4%AE%E0%A4%A8%E0%A4%9A%E0%A4%BE%E0%A4%93%20%E0%A4%B8%E0%A5%82%E0%A4%AA%20_%20Chef%20Sanjyot%20Keer%20_%20Your%20Food%20Lab%20_%20Facebook.jpg"
       },
       {
-        "name": "Cream of Tomato",
+        "name": "Cream of Tomato Soup",
         "price": "₹200",
         "description": "Rich and creamy tomato soup.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Roasted%20Tomato%20Soup.jpg"
@@ -454,7 +454,7 @@ const menuData = [
         "name": "Masala Maggie",
         "price": "₹100",
         "description": "Instant noodles cooked with extra spices.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(5).jpg"
+        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(6).jpg?updatedAt=1774409252984"
       },
       {
         "name": "Cheese Maggie",
@@ -474,13 +474,13 @@ const menuData = [
         "image": "https://ik.imagekit.io/j1fgksdwx/download%20(9).jpg"
       },
       {
-        "name": "Onion Pakoda 8pc",
+        "name": "Onion Pakoda 10pc",
         "price": "₹120",
         "description": "Crispy deep-fried onion fritters.",
         "image": "https://ik.imagekit.io/j1fgksdwx/No-Fry%20Onion%20Pakodas%20(1).jpg"
       },
       {
-        "name": "Paneer Pakoda 8pc",
+        "name": "Paneer Pakoda 10pc",
         "price": "₹200",
         "description": "Cottage cheese cubes fried in spiced batter.",
         "image": "https://ik.imagekit.io/j1fgksdwx/PANEER%20PAKORA.webp?updatedAt=1758292956189"
@@ -524,7 +524,7 @@ const menuData = [
         "name": "Veg Club Sandwich",
         "price": "₹250",
         "description": "Multi-layered sandwich with veggies and cheese.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Sarthak%20Jain%E2%9C%B4%EF%B8%8F%20on%20Instagram_%20_Paneer%20tikka%20sandwich%20_%20_%20Taste-O-Meter-5_5_%20.%20Dm%20for%20exact%20location%20_%EF%B8%8F%20.%20Follow%20@wannabefoodie69%20%E2%99%A5%EF%B8%8F%20For%20more%20food%20related%20stuff%20.__?updatedAt=1774429194675"
       }
     ]
   },
@@ -535,13 +535,13 @@ const menuData = [
         "name": "Veg Burger",
         "price": "₹120",
         "description": "Burger with a crispy vegetable patty.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/The%20Ultimate%20Veggie%20Burger.jpg"
       },
       {
         "name": "Veg Cheese Burger",
         "price": "₹150",
         "description": "Vegetable burger topped with a cheese slice.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/%CB%97%CB%8F%CB%8B%EA%92%B0_%20%EA%92%B1%20___'_%20______!!.jpg"
       }
     ]
   },
@@ -552,49 +552,49 @@ const menuData = [
         "name": "Onion Capsicum Pizza",
         "price": "₹150",
         "description": "Pizza topped with fresh onions and capsicum.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(13).jpg"
       },
       {
-        "name": "Cheese Margarita",
+        "name": "Cheese Margarita Pizza",
         "price": "₹250",
         "description": "Classic pizza with rich tomato sauce and cheese.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Delicious%20Margherita%20Pizza_%20Classic%20Flavor%20with%20Fresh%20Mozzarella,%20Basil,%20and%20Cherry%20Tomatoes.jpg"
       },
       {
-        "name": "Double Cheese",
+        "name": "Double Cheese Pizza",
         "price": "₹300",
         "description": "Pizza loaded with extra mozzarella cheese.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/_bhukkad_dilli_ke%20on%20Instagram_%20_Another%20one%20of%20my%20weaknesses%20chessy%20pizza__%20_%20Double%20tap%20if%20you%20like%20it%20%E2%9D%A4%EF%B8%8F%20Tag%20karo%20like%20karo%20comment%20karo%20share%20karo_%20.%20FOLLOW__"
       },
       {
         "name": "Veg Cheese Pizza",
         "price": "₹170",
         "description": "Pizza topped with mixed vegetables and cheese.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(10).jpg"
       },
       {
         "name": "Paneer Pizza",
         "price": "₹250",
         "description": "Pizza topped with spiced cottage cheese cubes.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(11).jpg"
       },
       {
-        "name": "Sweet Corn Cheese",
+        "name": "Sweet Corn Cheese pizza",
         "price": "₹150",
         "description": "Pizza topped with sweet corn and cheese.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Corn%20&%20Cheese%20Pizza.jpg"
       },
       {
         "name": "Mushroom Pizza",
         "price": "₹200",
         "description": "Pizza topped with fresh mushrooms.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Vegan%20Mushroom%20Pizza%20__%20You%20will%20definitely%20want%20a%20piz_za%20this!_%20Follow%20@plantiful_palate%20for%20more%20recipes_%EF%B8%8F%20Recipe_%20Ingredients_%20For%20the%20Dough_%20-%20250g%20plain%20flour%20-%20150ml%20warm%20water%20-%201%20tbsp%20olive%20oil%20-%201%20tsp%20i.jpg"
       },
       {
         "name": "Paneer Tikka Pizza",
         "price": "₹250",
         "description": "Pizza topped with tandoori paneer tikka.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(12).jpg"
       }
     ]
   },
@@ -605,19 +605,19 @@ const menuData = [
         "name": "White Sauce Pasta",
         "price": "₹150",
         "description": "Pasta tossed in a creamy and cheesy white sauce.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/White%20Sauce%20Pasta%20(Bechamel%20Sauce%20Pasta).jpg"
       },
       {
         "name": "Red Sauce Pasta",
         "price": "₹200",
         "description": "Pasta tossed in a tangy and spicy tomato sauce.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/arrabita%20pasta.webp?updatedAt=1758211132567"
       },
       {
         "name": "Pink Sauce Pasta",
         "price": "₹220",
         "description": "Pasta in a mix of creamy white and tangy red sauce.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Pink%20Sauce%20Pasta%20_%20Skinny%20Spatula.jpg"
       }
     ]
   },
@@ -628,49 +628,49 @@ const menuData = [
         "name": "Crispy Corn",
         "price": "₹150",
         "description": "Deep-fried sweet corn kernels tossed in spices.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Crispy%20corn%20recipe.jpg"
       },
       {
         "name": "American Corn",
         "price": "₹150",
         "description": "Buttered and seasoned sweet corn.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Crispy%20Corn%20Recipe%20(Crunchy%20Corn%20Snack)%20-%20Swasthi's%20Recipes.jpg"
       },
       {
         "name": "French Fry",
         "price": "₹120",
         "description": "Classic crispy deep-fried potato strips.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/french%20fries.webp?updatedAt=1758211132814"
       },
       {
         "name": "Peri Peri French Fry",
         "price": "₹150",
         "description": "French fries tossed in spicy peri peri seasoning.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Peri%20Peri%20Fries__.jpg?updatedAt=1771257841371"
       },
       {
         "name": "Honey Chilli Potato",
         "price": "₹200",
         "description": "Crispy potatoes tossed in a sweet and spicy sauce.",
-        "image": "https://picsum.photos/seed/HoneyChilliPotato/800/600"
+        "image": ""
       },
       {
         "name": "Chili Paneer Dry",
         "price": "₹250",
         "description": "Spicy stir-fried cottage cheese cubes.",
-        "image": "https://picsum.photos/seed/ChiliPaneerDry/800/600"
+        "image": ""
       },
       {
         "name": "Chili Paneer Gravy",
         "price": "₹150",
         "description": "Cottage cheese in a spicy Indo-Chinese gravy.",
-        "image": "https://picsum.photos/seed/ChiliPaneerGravy/800/600"
+        "image": ""
       },
       {
         "name": "Veg Crispy",
         "price": "₹150",
         "description": "Assorted vegetables fried crisp and tossed in sauce.",
-        "image": "https://picsum.photos/seed/VegCrispy/800/600"
+        "image": ""
       },
       {
         "name": "Mushroom Chili",
@@ -682,31 +682,31 @@ const menuData = [
         "name": "Baby Corn Chili",
         "price": "₹170",
         "description": "Crispy baby corn tossed in spicy chili sauce.",
-        "image": "https://picsum.photos/seed/BabyCornChili/800/600"
+        "image": ""
       },
       {
         "name": "Paneer 65",
         "price": "₹270",
         "description": "Spicy, deep-fried South Indian style paneer.",
-        "image": "https://picsum.photos/seed/Paneer65/800/600"
+        "image": ""
       },
       {
         "name": "Manchurian Dry 12pc",
         "price": "₹200",
         "description": "Crispy vegetable balls tossed in soy-garlic sauce.",
-        "image": "https://picsum.photos/seed/ManchurianDry12pc/800/600"
+        "image": ""
       },
       {
         "name": "Manchurian Gravy 10pc",
         "price": "₹150",
         "description": "Vegetable balls in a savory Indo-Chinese gravy.",
-        "image": "https://picsum.photos/seed/ManchurianGravy12pc/800/600"
+        "image": ""
       },
       {
         "name": "Dragon Potato",
         "price": "₹150",
         "description": "Spicy and tangy stir-fried potatoes.",
-        "image": "https://picsum.photos/seed/DragonPotato/800/600"
+        "image": ""
       }
     ]
   },
@@ -717,25 +717,25 @@ const menuData = [
         "name": "Veg Hakka Noodle",
         "price": "₹150",
         "description": "Stir-fried noodles with mixed vegetables.",
-        "image": "https://picsum.photos/seed/VegHakkaNoodle/800/600"
+        "image": ""
       },
       {
         "name": "Veg Chowmein",
         "price": "₹200",
         "description": "Classic Indian street-style stir-fried noodles.",
-        "image": "https://picsum.photos/seed/VegChowmein/800/600"
+        "image": ""
       },
       {
         "name": "Schezwan Noodles",
         "price": "₹250",
         "description": "Spicy noodles tossed in Schezwan sauce.",
-        "image": "https://picsum.photos/seed/SchezwanNoodles/800/600"
+        "image": ""
       },
       {
         "name": "Cheese Ball 8pc",
         "price": "₹200",
         "description": "Crispy deep-fried balls stuffed with gooey cheese.",
-        "image": "https://picsum.photos/seed/CheeseBall8pc/800/600"
+        "image": ""
       }
     ]
   },
@@ -746,55 +746,55 @@ const menuData = [
         "name": "Dahi Kabab",
         "price": "₹220",
         "description": "Soft and creamy yogurt-based fried kebabs.",
-        "image": "https://picsum.photos/seed/DahiKabab/800/600"
+        "image": ""
       },
       {
         "name": "Hara Bhara Kabab",
         "price": "₹200",
         "description": "Healthy spinach and green pea patties.",
-        "image": "https://picsum.photos/seed/HaraBharaKabab/800/600"
+        "image": ""
       },
       {
         "name": "Paneer Tikka 8pc",
         "price": "₹300",
         "description": "Cottage cheese marinated in spices and grilled.",
-        "image": "https://picsum.photos/seed/PaneerTikka8pc/800/600"
+        "image": ""
       },
       {
         "name": "Paneer Hariyali Tikka",
         "price": "₹300",
         "description": "Paneer marinated in a green mint-coriander paste.",
-        "image": "https://picsum.photos/seed/PaneerHariyaliTikka/800/600"
+        "image": ""
       },
       {
         "name": "Paneer Punjabi Tikka",
         "price": "₹300",
         "description": "Spicy and robust Punjabi style grilled paneer.",
-        "image": "https://picsum.photos/seed/PaneerPunjabiTikka/800/600"
+        "image": ""
       },
       {
         "name": "Paneer Malai Tikka",
         "price": "₹350",
         "description": "Creamy and mildly spiced grilled cottage cheese.",
-        "image": "https://picsum.photos/seed/PaneerMalaiTikka/800/600"
+        "image": ""
       },
       {
         "name": "Achari Paneer Tikka 8pc",
         "price": "₹300",
         "description": "Paneer marinated in tangy pickling spices.",
-        "image": "https://picsum.photos/seed/AchariPaneerTikka8pc/800/600"
+        "image": ""
       },
       {
         "name": "Soya Chap",
         "price": "₹250",
         "description": "Protein-rich soya chunks marinated and grilled.",
-        "image": "https://picsum.photos/seed/SoyaChap/800/600"
+        "image": ""
       },
       {
         "name": "Malai Soya Chap",
         "price": "₹300",
         "description": "Soya chunks in a creamy and mild marinade.",
-        "image": "https://picsum.photos/seed/MalaiSoyaChap/800/600"
+        "image": ""
       }
     ]
   },
@@ -805,31 +805,31 @@ const menuData = [
         "name": "Dal Fry",
         "price": "₹200",
         "description": "Yellow lentils tempered with Indian spices.",
-        "image": "https://picsum.photos/seed/DalFry/800/600"
+        "image": ""
       },
       {
         "name": "Dal Tadka",
         "price": "₹230",
         "description": "Lentils with a double tempering of garlic and cumin.",
-        "image": "https://picsum.photos/seed/DalTadka/800/600"
+        "image": ""
       },
       {
         "name": "Dal Makhni",
         "price": "₹250",
         "description": "Slow-cooked black lentils with butter and cream.",
-        "image": "https://picsum.photos/seed/DalMakhni/800/600"
+        "image": ""
       },
       {
         "name": "Punjabi Dal Tadka",
         "price": "₹170",
         "description": "Spicy and robust Punjabi style tempered lentils.",
-        "image": "https://picsum.photos/seed/PunjabiDalTadka/800/600"
+        "image": ""
       },
       {
         "name": "Dal Panch Ratan",
         "price": "₹170",
         "description": "A mix of five lentils cooked with aromatic spices.",
-        "image": "https://picsum.photos/seed/DalPanchRatan/800/600"
+        "image": ""
       }
     ]
   },
@@ -840,37 +840,37 @@ const menuData = [
         "name": "Veg Raita",
         "price": "₹100",
         "description": "Yogurt mixed with finely chopped vegetables.",
-        "image": "https://picsum.photos/seed/VegRaita/800/600"
+        "image": "0"
       },
       {
         "name": "Boondi Raita",
         "price": "₹120",
         "description": "Yogurt mixed with crispy gram flour pearls.",
-        "image": "https://picsum.photos/seed/BoondiRaita/800/600"
+        "image": ""
       },
       {
         "name": "Cucumber Raita",
         "price": "₹100",
         "description": "Cooling yogurt mixed with grated cucumber.",
-        "image": "https://picsum.photos/seed/CucumberRaita/800/600"
+        "image": ""
       },
       {
         "name": "Onion Raita",
         "price": "₹100",
         "description": "Yogurt mixed with chopped onions and spices.",
-        "image": "https://picsum.photos/seed/OnionRaita/800/600"
+        "image": ""
       },
       {
         "name": "Fry Raita",
         "price": "₹180",
         "description": "Tempered yogurt with spices.",
-        "image": "https://picsum.photos/seed/FryRaita/800/600"
+        "image": ""
       },
       {
         "name": "Pineapple Raita",
         "price": "₹150",
         "description": "Sweet and savory yogurt with pineapple chunks.",
-        "image": "https://picsum.photos/seed/PineappleRaita/800/600"
+        "image": ""
       }
     ]
   },
@@ -881,61 +881,55 @@ const menuData = [
         "name": "Sev Tamatar",
         "price": "₹150",
         "description": "Spicy tomato curry topped with crispy gram flour noodles.",
-        "image": "https://picsum.photos/seed/SevTamatar/800/600"
+        "image": ""
       },
       {
         "name": "Mix Veg",
         "price": "₹200",
         "description": "Assorted seasonal vegetables cooked in a spiced gravy.",
-        "image": "https://picsum.photos/seed/MixVeg/800/600"
+        "image": ""
       },
       {
         "name": "Chana Masala",
         "price": "₹120",
         "description": "Spicy and tangy chickpea curry.",
-        "image": "https://picsum.photos/seed/ChanaMasala/800/600"
+        "image": ""
       },
       {
         "name": "Aloo Tomato",
         "price": "₹120",
         "description": "Simple and comforting potato and tomato curry.",
-        "image": "https://picsum.photos/seed/AlooTomato/800/600"
+        "image": ""
       },
       {
         "name": "Veg Handi",
         "price": "₹200",
         "description": "Mixed vegetables cooked in a traditional clay pot style.",
-        "image": "https://picsum.photos/seed/VegHandi/800/600"
+        "image": ""
       },
       {
         "name": "Mushroom Masala",
         "price": "₹250",
         "description": "Mushrooms cooked in a rich and spicy onion-tomato gravy.",
-        "image": "https://picsum.photos/seed/MushroomMasala/800/600"
-      },
-      {
-        "name": "Veg Chola Puri",
-        "price": "₹",
-        "description": "Spicy chickpea curry served with deep-fried bread.",
-        "image": "https://picsum.photos/seed/VegCholaPuri/800/600"
+        "image": ""
       },
       {
         "name": "Veg Kolhapuri",
         "price": "₹200",
         "description": "Spicy and fiery mixed vegetable curry from Kolhapur.",
-        "image": "https://picsum.photos/seed/VegKolhapuri/800/600"
+        "image": ""
       },
       {
         "name": "Veg Jaipuri",
         "price": "₹220",
         "description": "Mixed vegetables in a rich, slightly sweet gravy.",
-        "image": "https://picsum.photos/seed/VegJaipuri/800/600"
+        "image": ""
       },
       {
         "name": "Kashmiri Dum Aloo",
         "price": "₹250",
         "description": "Baby potatoes slow-cooked in a rich yogurt-based gravy.",
-        "image": "https://picsum.photos/seed/KashmiriDumAloo/800/600"
+        "image": ""
       }
     ]
   },
@@ -946,37 +940,37 @@ const menuData = [
         "name": "Malai Kofta",
         "price": "₹300",
         "description": "Deep-fried paneer and potato dumplings in a rich creamy gravy.",
-        "image": "https://picsum.photos/seed/MalaiKofta/800/600"
+        "image": ""
       },
       {
         "name": "Navratan Korma",
         "price": "₹250",
         "description": "Nine-gem curry with vegetables, fruits, and nuts in a mild gravy.",
-        "image": "https://picsum.photos/seed/NavratanKorma/800/600"
+        "image": ""
       },
       {
         "name": "Shahi Paneer",
         "price": "₹300",
         "description": "Cottage cheese in a thick, creamy, and nutty gravy.",
-        "image": "https://picsum.photos/seed/ShahiPaneer/800/600"
+        "image": ""
       },
       {
         "name": "Methi Malai Matar",
         "price": "₹320",
         "description": "Green peas and fenugreek leaves in a creamy sauce.",
-        "image": "https://picsum.photos/seed/MethiMalaiMatar/800/600"
+        "image": ""
       },
       {
         "name": "Kaju Curry",
         "price": "₹300",
         "description": "Roasted cashews simmered in a rich and spicy gravy.",
-        "image": "https://picsum.photos/seed/KajuCurry/800/600"
+        "image": ""
       },
       {
         "name": "Khoya Kaju",
         "price": "₹340",
         "description": "Cashews cooked in a sweet and rich reduced milk gravy.",
-        "image": "https://picsum.photos/seed/KhoyaKaju/800/600"
+        "image": ""
       }
     ]
   },
@@ -987,67 +981,67 @@ const menuData = [
         "name": "Paneer Lababdar",
         "price": "₹350",
         "description": "Cottage cheese in a creamy, tangy, and slightly sweet gravy.",
-        "image": "https://picsum.photos/seed/PaneerLababdar/800/600"
+        "image": ""
       },
       {
         "name": "Paneer Pasanda",
         "price": "₹350",
         "description": "Stuffed paneer sandwiches in a rich and creamy gravy.",
-        "image": "https://picsum.photos/seed/PaneerPasanda/800/600"
+        "image": ""
       },
       {
         "name": "Derawar Special 3 (Varieties)",
         "price": "₹750",
         "description": "Our chef's special trio of signature paneer dishes.",
-        "image": "https://picsum.photos/seed/DerawarSpecial3Varieties/800/600"
+        "image": ""
       },
       {
         "name": "Paneer 2 Pyaza",
         "price": "₹250",
         "description": "Cottage cheese cooked with double the amount of onions.",
-        "image": "https://picsum.photos/seed/Paneer2Pyaza/800/600"
+        "image": ""
       },
       {
         "name": "Khoya Paneer",
         "price": "₹280",
         "description": "Paneer cooked with rich reduced milk for a sweet touch.",
-        "image": "https://picsum.photos/seed/KhoyaPaneer/800/600"
+        "image": ""
       },
       {
         "name": "Paneer Angara",
         "price": "₹350",
         "description": "Smoky and spicy cottage cheese curry.",
-        "image": "https://picsum.photos/seed/PaneerAngara/800/600"
+        "image": ""
       },
       {
         "name": "Matar Paneer",
         "price": "₹180",
         "description": "Classic combination of green peas and cottage cheese.",
-        "image": "https://picsum.photos/seed/MatarPaneer/800/600"
+        "image": ""
       },
       {
         "name": "Paneer Butter Masala",
         "price": "₹300",
         "description": "Paneer in a rich, creamy, and buttery tomato gravy.",
-        "image": "https://picsum.photos/seed/PaneerButterMasala/800/600"
+        "image": ""
       },
       {
         "name": "Handi Paneer",
         "price": "₹250",
         "description": "Paneer cooked with bell peppers in a traditional handi.",
-        "image": "https://picsum.photos/seed/HandiPaneer/800/600"
+        "image": ""
       },
       {
         "name": "Kadai Paneer",
         "price": "₹300",
         "description": "Spicy paneer cooked with bell peppers and whole spices.",
-        "image": "https://picsum.photos/seed/KadaiPaneer/800/600"
+        "image": ""
       },
       {
         "name": "Paneer Bhurji",
         "price": "₹280",
         "description": "Scrambled cottage cheese cooked with onions and tomatoes.",
-        "image": "https://picsum.photos/seed/PaneerBhurji/800/600"
+        "image": ""
       }
     ]
   },
@@ -1058,49 +1052,49 @@ const menuData = [
         "name": "Steam Rice",
         "price": "₹120",
         "description": "Plain, fluffy steamed basmati rice.",
-        "image": "https://picsum.photos/seed/SteamRice/800/600"
+        "image": ""
       },
       {
         "name": "Jeera Rice",
         "price": "₹150",
         "description": "Basmati rice tempered with cumin seeds.",
-        "image": "https://picsum.photos/seed/JeeraRice/800/600"
+        "image": ""
       },
       {
         "name": "Butter Rice",
         "price": "₹140",
         "description": "Steamed rice tossed with rich butter.",
-        "image": "https://picsum.photos/seed/ButterRice/800/600"
+        "image": ""
       },
       {
         "name": "Veg Fried Rice",
         "price": "₹180",
         "description": "Stir-fried rice with mixed vegetables and soy sauce.",
-        "image": "https://picsum.photos/seed/VegFriedRice/800/600"
+        "image": ""
       },
       {
         "name": "Paneer Pulao",
         "price": "₹200",
         "description": "Fragrant rice cooked with spiced cottage cheese cubes.",
-        "image": "https://picsum.photos/seed/PaneerPulao/800/600"
+        "image": ""
       },
       {
         "name": "Corn Butter Rice",
         "price": "₹170",
         "description": "Rice cooked with sweet corn and butter.",
-        "image": "https://picsum.photos/seed/CornButterRice/800/600"
+        "image": ""
       },
       {
         "name": "Schezwan Fry Rice",
         "price": "₹220",
         "description": "Spicy stir-fried rice with Schezwan sauce.",
-        "image": "https://picsum.photos/seed/SchezwanFryRice/800/600"
+        "image": ""
       },
       {
         "name": "Manchurian Fried Rice",
         "price": "₹200",
         "description": "Fried rice served with vegetable Manchurian.",
-        "image": "https://picsum.photos/seed/ManchurianFriedRice/800/600"
+        "image": ""
       }
     ]
   },
@@ -1111,19 +1105,19 @@ const menuData = [
         "name": "Veg Biryani",
         "price": "₹250",
         "description": "Aromatic basmati rice cooked with mixed vegetables and spices.",
-        "image": "https://picsum.photos/seed/VegBiryani/800/600"
+        "image": ""
       },
       {
         "name": "Veg Hydrabadi Biryani",
         "price": "₹280",
         "description": "Spicy and flavorful authentic Hyderabadi style biryani.",
-        "image": "https://picsum.photos/seed/VegHydrabadiBiryani/800/600"
+        "image": "`"
       },
       {
         "name": "Veg Dum Biryani",
         "price": "₹300",
         "description": "Slow-cooked aromatic rice and vegetable layered dish.",
-        "image": "https://picsum.photos/seed/VegDumBiryani/800/600"
+        "image": ""
       }
     ]
   },
@@ -1134,79 +1128,79 @@ const menuData = [
         "name": "Tandoori Roti Plain",
         "price": "₹30",
         "description": "Whole wheat flatbread baked in a clay oven.",
-        "image": "https://picsum.photos/seed/TandooriRotiPlain/800/600"
+        "image": ""
       },
       {
         "name": "Tandoori Roti Butter",
         "price": "₹50",
         "description": "Clay oven baked flatbread topped with butter.",
-        "image": "https://picsum.photos/seed/TandooriRotiButter/800/600"
+        "image": ""
       },
       {
         "name": "Naan",
         "price": "₹100",
         "description": "Soft and fluffy leavened flatbread baked in a tandoor.",
-        "image": "https://picsum.photos/seed/Naan/800/600"
+        "image": ""
       },
       {
         "name": "Butter Naan",
         "price": "₹120",
         "description": "Soft naan bread brushed with generous amounts of butter.",
-        "image": "https://picsum.photos/seed/ButterNaan/800/600"
+        "image": ""
       },
       {
         "name": "Garlic Naan",
         "price": "₹150",
         "description": "Naan bread flavored with minced garlic and cilantro.",
-        "image": "https://picsum.photos/seed/GarlicNaan/800/600"
+        "image": ""
       },
       {
         "name": "Lacha Parantha",
         "price": "₹150",
         "description": "Multi-layered flaky whole wheat flatbread.",
-        "image": "https://picsum.photos/seed/LachaParantha/800/600"
+        "image": ""
       },
       {
         "name": "Tandoori Stuff Kulcha",
         "price": "₹200",
         "description": "Stuffed leavened bread baked in a clay oven.",
-        "image": "https://picsum.photos/seed/TandooriStuffKulcha/800/600"
+        "image": ""
       },
       {
         "name": "Missi Roti",
         "price": "70",
         "description": "Spiced gram flour and wheat flatbread.",
-        "image": "https://picsum.photos/seed/MissiRoti/800/600"
+        "image": ""
       },
       {
         "name": "Cheese Naan",
         "price": "₹170",
         "description": "Soft naan bread stuffed with melted cheese.",
-        "image": "https://picsum.photos/seed/CheeseNaan/800/600"
+        "image": ""
       },
       {
         "name": "Tawa Chapati Plain",
         "price": "₹20",
         "description": "Simple whole wheat flatbread cooked on a griddle.",
-        "image": "https://picsum.photos/seed/TawaChapatiPlain/800/600"
+        "image": ""
       },
       {
         "name": "Tawa Chapati Butter",
         "price": "₹30",
         "description": "Griddle-cooked flatbread brushed with butter.",
-        "image": "https://picsum.photos/seed/TawaChapatiButter/800/600"
+        "image": ""
       },
       {
         "name": "Bajra Roti",
         "price": "₹70",
         "description": "Healthy and rustic pearl millet flatbread.",
-        "image": "https://picsum.photos/seed/BajraRoti/800/600"
+        "image": ""
       },
       {
         "name": "Rumali Roti",
         "price": "₹100",
         "description": "Paper-thin, soft, and folded flatbread.",
-        "image": "https://picsum.photos/seed/RumaliRoti/800/600"
+        "image": ""
       }
     ]
   },
@@ -1217,7 +1211,7 @@ const menuData = [
         "name": "Dal Bati Churma",
         "price": "₹400",
         "description": "Traditional Rajasthani meal of lentils, baked wheat balls, and sweet crumbled cereal.",
-        "image": "https://picsum.photos/seed/DalBatiChurma/800/600"
+        "image": ""
       }
     ]
   }
