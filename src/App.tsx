@@ -13,7 +13,7 @@ const Ornament = () => (
 );
 
 const JharokhaTop = () => (
-  <svg viewBox="0 0 1200 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-24 md:h-32 lg:h-48 text-[var(--color-accent)] block drop-shadow-2xl">
+  <svg viewBox="0 0 1200 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-24 md:h-32 lg:h-48 text-[var(--color-accent)] block">
     <defs>
       <linearGradient id="jharokha-grad" x1="0%" y1="0%" x2="0%" y2="100%">
         <stop offset="0%" stopColor="var(--color-bg-card)" stopOpacity="0.1" />
@@ -1223,20 +1223,22 @@ const TiltImage = ({ src, alt }: { src: string, alt: string }) => {
   return (
     <div className="w-full sm:w-48 md:w-56 lg:w-48 xl:w-56 shrink-0">
       <div
-        className="rect-image w-full aspect-[4/3] relative overflow-hidden rounded-xl bg-[var(--color-bg-card)]/50"
+        className="rect-image w-full aspect-[4/3] relative overflow-hidden rounded-xl bg-[var(--color-bg-card)]/50 transform-gpu"
       >
         <div className="rect-image-inner w-full h-full">
-          {/* Skeleton Loader */}
+          {/* Static Skeleton Loader */}
           {!isLoaded && (
-            <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-bg-card)] via-[var(--color-accent)]/20 to-[var(--color-bg-card)] animate-pulse" />
+            <div className="absolute inset-0 bg-[var(--color-bg-card)]" />
           )}
           
           <img
             src={src}
             alt={alt}
+            loading="lazy"
+            decoding="async"
             referrerPolicy="no-referrer"
             onLoad={() => setIsLoaded(true)}
-            className={`w-full h-full object-cover transition-opacity duration-700 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
+            className={`w-full h-full object-cover transition-opacity duration-500 ease-out transform-gpu ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
           />
         </div>
       </div>
@@ -1321,7 +1323,7 @@ export default function App() {
           <JharokhaTop />
         </div>
 
-        <div className="border-x-2 border-b-2 border-t-0 border-[var(--color-accent)]/40 rounded-b-3xl p-6 md:p-12 bg-[var(--color-bg-card)]/40 backdrop-blur-sm shadow-2xl relative z-10 pt-0">
+        <div className="border-x-2 border-b-2 border-t-0 border-[var(--color-accent)]/40 rounded-b-3xl p-6 md:p-12 bg-[var(--color-bg-card)]/80 shadow-2xl relative z-10 pt-0">
           {/* Corner Ornaments */}
           <div className="absolute bottom-4 left-4 w-8 h-8 border-b-2 border-l-2 border-[var(--color-accent)] opacity-60"></div>
           <div className="absolute bottom-4 right-4 w-8 h-8 border-b-2 border-r-2 border-[var(--color-accent)] opacity-60"></div>
@@ -1336,8 +1338,7 @@ export default function App() {
           >
             <motion.img 
               animate={{ 
-                y: [0, -15, 0],
-                rotateY: [-5, 5, -5]
+                y: [0, -10, 0]
               }}
               transition={{ 
                 duration: 6, 
@@ -1347,11 +1348,7 @@ export default function App() {
               src="https://ik.imagekit.io/j1fgksdwx/Derawar%20(6).png" 
               alt="Derawar Logo" 
               referrerPolicy="no-referrer"
-              className="w-72 md:w-96 lg:w-[32rem] mb-2 object-contain"
-              style={{ 
-                transformStyle: "preserve-3d",
-                filter: "drop-shadow(0 25px 25px rgba(0,0,0,0.3))"
-              }}
+              className="w-72 md:w-96 lg:w-[32rem] mb-2 object-contain transform-gpu"
             />
           </motion.div>
           <motion.p 
@@ -1417,7 +1414,7 @@ export default function App() {
                 <Ornament />
                 <div className="flex items-center justify-center mt-6">
                   <div className="w-12 md:w-24 h-px bg-gradient-to-r from-transparent to-[var(--color-accent)] opacity-50"></div>
-                  <h2 className="mx-6 font-cinzel text-4xl md:text-6xl text-[var(--color-accent)] tracking-[0.2em] uppercase text-glow drop-shadow-lg text-center">
+                  <h2 className="mx-6 font-cinzel text-4xl md:text-6xl text-[var(--color-accent)] tracking-[0.2em] uppercase text-glow text-center">
                     {section.category}
                   </h2>
                   <div className="w-12 md:w-24 h-px bg-gradient-to-l from-transparent to-[var(--color-accent)] opacity-50"></div>
@@ -1432,7 +1429,7 @@ export default function App() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: "-50px" }}
                     transition={{ duration: 0.8, delay: (itemIdx % 4) * 0.1 }}
-                    className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 md:gap-6 group relative p-4 sm:p-6 -mx-4 sm:-mx-6 rounded-2xl transition-all duration-500 hover:bg-[var(--color-accent)]/5 hover:shadow-[inset_0_0_30px_rgba(212,175,55,0.05)]"
+                    className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 md:gap-6 group relative p-4 sm:p-6 -mx-4 sm:-mx-6 rounded-2xl transition-colors duration-500 hover:bg-[var(--color-accent)]/5 hover:shadow-[inset_0_0_30px_rgba(212,175,55,0.05)] transform-gpu"
                   >
                     {item.image && (
                       <div className="shrink-0 relative z-10">
