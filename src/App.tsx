@@ -1211,7 +1211,7 @@ const menuData = [
         "name": "Dal Bati Churma",
         "price": "₹400",
         "description": "Traditional Rajasthani meal of lentils, baked wheat balls, and sweet crumbled cereal.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Dal%20Baati%20Churma.jpg"
       }
     ]
   }
@@ -1221,7 +1221,7 @@ const TiltImage = ({ src, alt }: { src: string, alt: string }) => {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
-    <div className="w-full max-w-[320px]">
+    <div className="w-full sm:w-48 md:w-56 lg:w-48 xl:w-56 shrink-0">
       <div
         className="rect-image w-full aspect-[4/3] relative overflow-hidden rounded-xl bg-[var(--color-bg-card)]/50"
       >
@@ -1293,24 +1293,28 @@ export default function App() {
     <div className="min-h-screen bg-texture relative">
       
       {/* Floating Navigation */}
-      <div className="fixed right-6 top-1/2 -translate-y-1/2 z-50 hidden xl:flex flex-col gap-4 items-center">
+      <div className="fixed right-6 top-1/2 -translate-y-1/2 z-50 hidden 2xl:flex flex-col gap-4 items-center">
         <div className="w-px h-16 bg-gradient-to-b from-transparent to-[var(--color-accent)] opacity-30"></div>
-        {menuData.map((section, idx) => (
-          <a 
-            key={idx} 
-            href={`#${section.category.replace(/\s+/g, '-')}`}
-            className="group relative flex items-center justify-center w-6 h-6"
-          >
-            <div className="w-1.5 h-1.5 rounded-full bg-[var(--color-accent)] opacity-30 group-hover:opacity-100 group-hover:scale-150 transition-all duration-300"></div>
-            <span className="absolute right-8 opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-cinzel text-[var(--color-accent)] text-xs whitespace-nowrap tracking-widest">
-              {section.category}
-            </span>
-          </a>
-        ))}
+        {menuData.map((section, idx) => {
+          const isActive = activeCategory === section.category;
+          return (
+            <a 
+              key={idx} 
+              href={`#${section.category.replace(/\s+/g, '-')}`}
+              onClick={() => setActiveCategory(section.category)}
+              className="group relative flex items-center justify-center w-6 h-6"
+            >
+              <div className={`w-1.5 h-1.5 rounded-full bg-[var(--color-accent)] transition-all duration-300 ${isActive ? 'opacity-100 scale-150 shadow-[0_0_10px_rgba(212,175,55,0.8)]' : 'opacity-30 group-hover:opacity-100 group-hover:scale-150'}`}></div>
+              <span className={`absolute right-8 transition-opacity duration-300 font-cinzel text-[var(--color-accent)] text-xs whitespace-nowrap tracking-widest ${isActive ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'}`}>
+                {section.category}
+              </span>
+            </a>
+          );
+        })}
         <div className="w-px h-16 bg-gradient-to-t from-transparent to-[var(--color-accent)] opacity-30"></div>
       </div>
 
-      <div className="content-wrapper max-w-6xl mx-auto px-4 py-16 sm:px-6 lg:px-8 relative z-10">
+      <div className="content-wrapper max-w-[1400px] mx-auto px-4 py-16 sm:px-6 lg:px-12 relative z-10">
         
         {/* Jharokha Top Border */}
         <div className="w-full relative z-20 -mb-[1px]">
@@ -1420,7 +1424,7 @@ export default function App() {
                 </div>
               </motion.div>
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-4">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-8 lg:gap-x-12 xl:gap-x-16 xl:gap-y-12">
                 {section.items.map((item, itemIdx) => (
                   <motion.div 
                     key={itemIdx} 
@@ -1428,7 +1432,7 @@ export default function App() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: "-50px" }}
                     transition={{ duration: 0.8, delay: (itemIdx % 4) * 0.1 }}
-                    className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 group relative p-2 -mx-2 rounded-2xl transition-all duration-500 hover:bg-[var(--color-accent)]/5 hover:shadow-[inset_0_0_30px_rgba(212,175,55,0.05)]"
+                    className="flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left gap-4 md:gap-6 group relative p-4 sm:p-6 -mx-4 sm:-mx-6 rounded-2xl transition-all duration-500 hover:bg-[var(--color-accent)]/5 hover:shadow-[inset_0_0_30px_rgba(212,175,55,0.05)]"
                   >
                     {item.image && (
                       <div className="shrink-0 relative z-10">
@@ -1437,16 +1441,16 @@ export default function App() {
                     )}
                     
                       <div className="flex flex-col justify-center flex-grow w-full relative z-10">
-                        <div className="flex items-center justify-between w-full mb-1">
+                        <div className="flex flex-col xl:flex-row xl:items-baseline justify-between w-full mb-1 gap-1 xl:gap-4">
                           <motion.h3 
                             whileHover={{ scale: 1.02, color: "var(--color-accent)", originX: 0 }}
-                            className="font-cormorant text-2xl md:text-3xl font-medium text-[var(--color-text-main)] transition-colors cursor-default flex items-center gap-3"
+                            className="font-cormorant text-2xl md:text-3xl font-medium text-[var(--color-text-main)] transition-colors cursor-default flex items-center justify-center sm:justify-start gap-3"
                           >
-                            <span className="text-[var(--color-accent)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm">✦</span>
+                            <span className="text-[var(--color-accent)] opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-sm hidden sm:inline-block">✦</span>
                             {item.name}
                           </motion.h3>
                           
-                          <span className="font-cinzel text-xl text-[var(--color-accent)] tracking-widest whitespace-nowrap ml-4">
+                          <span className="font-cinzel text-xl text-[var(--color-accent)] tracking-widest whitespace-nowrap xl:ml-4">
                             {item.price}
                           </span>
                         </div>
