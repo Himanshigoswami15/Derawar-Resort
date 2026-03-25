@@ -419,13 +419,13 @@ const menuData = [
         "name": "Mix Veg Paratha",
         "price": "₹60",
         "description": "Flatbread stuffed with mixed vegetables.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/_.jpg"
       },
       {
         "name": "Onion Paratha",
         "price": "₹40",
         "description": "Flatbread stuffed with spiced onions.",
-        "image": ""
+        "image": "https://ik.imagekit.io/j1fgksdwx/Onion%20Paratha.jpg"
       },
       {
         "name": "Palak Paratha",
