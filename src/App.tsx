@@ -1292,7 +1292,7 @@ export default function App() {
   }, [activeCategory]);
 
   return (
-    <div className="min-h-screen min-h-[100dvh] bg-texture relative overflow-x-hidden w-full">
+    <div className="min-h-screen bg-texture relative">
       
       {/* Floating Navigation */}
       <div className="fixed right-6 top-1/2 -translate-y-1/2 z-50 hidden 2xl:flex flex-col gap-4 items-center">
@@ -1348,7 +1348,7 @@ export default function App() {
               src="https://ik.imagekit.io/j1fgksdwx/Derawar%20(6).png" 
               alt="Derawar Logo" 
               referrerPolicy="no-referrer"
-              className="w-72 md:w-96 lg:w-[32rem] h-24 md:h-32 lg:h-40 mb-2 object-contain transform-gpu"
+              className="w-72 md:w-96 lg:w-[32rem] mb-2 object-contain transform-gpu"
             />
           </motion.div>
           <motion.p 
@@ -1362,7 +1362,7 @@ export default function App() {
         </header>
 
         {/* Category Navigation (Horizontal Scroll) */}
-        <div className="sticky top-0 z-40 w-[calc(100%+3rem)] -ml-6 md:w-[calc(100%+6rem)] md:-ml-12 mb-8 bg-[var(--color-bg-card)]/90 backdrop-blur-md border-y border-[var(--color-accent)]/20">
+        <div className="sticky top-0 z-40 w-auto mb-8 -mx-6 md:-mx-12 bg-[var(--color-bg-card)]/90 backdrop-blur-md border-y border-[var(--color-accent)]/20">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -1375,7 +1375,7 @@ export default function App() {
             
             <div 
               ref={navRef}
-              className="flex items-center gap-3 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] scroll-smooth relative z-0 px-4 snap-x snap-mandatory"
+              className="flex items-center gap-3 overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] scroll-smooth relative z-0 px-4"
             >
               {menuData.map((section, idx) => {
                 const isActive = activeCategory === section.category;
@@ -1385,7 +1385,7 @@ export default function App() {
                     href={`#${section.category.replace(/\s+/g, '-')}`}
                     data-category={section.category}
                     onClick={() => setActiveCategory(section.category)}
-                    className={`snap-center px-5 py-2 rounded-full border transition-colors duration-300 font-cinzel text-xs md:text-sm tracking-widest whitespace-nowrap flex-shrink-0 ${
+                    className={`px-5 py-2 rounded-full border transition-all duration-300 font-cinzel text-xs md:text-sm tracking-widest whitespace-nowrap flex-shrink-0 ${
                       isActive 
                         ? 'bg-[var(--color-accent)] text-[var(--color-bg)] border-[var(--color-accent)] shadow-[0_0_15px_rgba(212,175,55,0.4)]' 
                         : 'border-[var(--color-accent)]/40 text-[var(--color-accent)] hover:bg-[var(--color-accent)]/10 shadow-[0_0_10px_rgba(212,175,55,0.1)] hover:shadow-[0_0_20px_rgba(212,175,55,0.2)]'
@@ -1412,12 +1412,12 @@ export default function App() {
                 className="flex flex-col items-center justify-center mb-12"
               >
                 <Ornament />
-                <div className="flex items-center justify-center mt-4 sm:mt-6 w-full">
-                  <div className="w-6 sm:w-12 md:w-24 h-px bg-gradient-to-r from-transparent to-[var(--color-accent)] opacity-50 shrink"></div>
-                  <h2 className="mx-3 sm:mx-6 font-cinzel text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-[var(--color-accent)] tracking-[0.1em] sm:tracking-[0.2em] uppercase text-glow text-center shrink-0">
+                <div className="flex items-center justify-center mt-6">
+                  <div className="w-12 md:w-24 h-px bg-gradient-to-r from-transparent to-[var(--color-accent)] opacity-50"></div>
+                  <h2 className="mx-6 font-cinzel text-4xl md:text-6xl text-[var(--color-accent)] tracking-[0.2em] uppercase text-glow text-center">
                     {section.category}
                   </h2>
-                  <div className="w-6 sm:w-12 md:w-24 h-px bg-gradient-to-l from-transparent to-[var(--color-accent)] opacity-50 shrink"></div>
+                  <div className="w-12 md:w-24 h-px bg-gradient-to-l from-transparent to-[var(--color-accent)] opacity-50"></div>
                 </div>
               </motion.div>
 
