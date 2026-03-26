@@ -829,7 +829,7 @@ const menuData = [
         "name": "Dal Panch Ratan",
         "price": "₹170",
         "description": "A mix of five lentils cooked with aromatic spices.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/Punjabi%20Toor%20Dal%20Tadka%20and%20rice%20is%20the%20ultimate%20comfort%20food.jpg?updatedAt=1772360785394"
+        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(17).jpg?updatedAt=1774455827978"
       }
     ]
   },
