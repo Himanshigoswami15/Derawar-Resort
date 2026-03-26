@@ -923,7 +923,7 @@ const menuData = [
         "name": "Veg Jaipuri",
         "price": "₹220",
         "description": "Mixed vegetables in a rich, slightly sweet gravy.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/Veg%20Kolhapuri%20Recipe%20_.jpg?updatedAt=1772356728024"
+        "image": "https://ik.imagekit.io/j1fgksdwx/Vegetable%20Paneer%20Jalfrezi%20-%20Under%2015%20minutes%20-%20Carve%20Your%20Craving.jpg?updatedAt=1774456793816"
       },
       {
         "name": "Kashmiri Dum Aloo",
@@ -1128,7 +1128,7 @@ const menuData = [
         "name": "Tandoori Roti Plain",
         "price": "₹30",
         "description": "Whole wheat flatbread baked in a clay oven.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/Butter%20Kulcha%20Recipe-%20Soft%20&%20Flaky%20_%20Cook%20Click%20N%20Devour!!!.jpg?updatedAt=1772363246388"
+        "image": "https://ik.imagekit.io/j1fgksdwx/Roti%20(tandoori).jpg"
       },
       {
         "name": "Tandoori Roti Butter",
@@ -1164,7 +1164,7 @@ const menuData = [
         "name": "Tandoori Stuff Kulcha",
         "price": "₹200",
         "description": "Stuffed leavened bread baked in a clay oven.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/_%E2%9D%A4.jpg?updatedAt=1772363149739"
+        "image": "https://ik.imagekit.io/j1fgksdwx/Paneer%20and%20Cheese%20Stuffed%20Kulcha%20-%20Bliss%20of%20Cooking.jpg"
       },
       {
         "name": "Missi Roti",
