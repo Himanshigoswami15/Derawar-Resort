@@ -1469,22 +1469,51 @@ export default function App() {
 
         {/* Footer */}
         <motion.footer 
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 1 }}
-          className="mt-40 pt-12 border-t border-[var(--color-accent)]/20 text-center flex flex-col items-center"
+          transition={{ duration: 1.2 }}
+          className="mt-32 pt-16 pb-12 relative flex flex-col items-center"
         >
-          <motion.div 
-            whileHover={{ scale: 1.05, rotateZ: 2 }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-flex items-center justify-center space-x-3 border border-[var(--color-accent)]/30 rounded-full px-8 py-4 bg-[var(--color-bg-card)]/50 backdrop-blur-md hover:bg-[var(--color-accent)]/10 transition-colors cursor-pointer group shadow-[0_0_30px_rgba(212,175,55,0.1)]"
-          >
-            <Instagram className="w-5 h-5 text-[var(--color-accent)] group-hover:scale-110 transition-transform" />
-            <span className="font-inter font-light tracking-[0.2em] text-[var(--color-text-main)] text-sm uppercase">
-              @qreativemenus
+          {/* Elegant Divider */}
+          <div className="w-full max-w-lg flex items-center justify-center mb-12 opacity-30">
+            <div className="w-full h-px bg-gradient-to-r from-transparent via-[var(--color-accent)] to-transparent"></div>
+            <div className="w-2 h-2 rotate-45 border border-[var(--color-accent)] absolute bg-[var(--color-bg-main)]"></div>
+          </div>
+
+          <div className="opacity-50">
+            <Ornament />
+          </div>
+
+          {/* Resort ID Section */}
+          <div className="mt-12 mb-6 flex flex-col items-center">
+            <a href="https://instagram.com/derawar_resort_" target="_blank" rel="noopener noreferrer" className="group relative">
+              <div className="absolute -inset-4 bg-[var(--color-accent)]/5 blur-2xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-1000"></div>
+              <motion.div 
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                className="relative flex items-center gap-3 px-6 py-1 transition-all duration-500"
+              >
+                <Instagram strokeWidth={1} className="w-4 h-4 md:w-5 md:h-5 text-[var(--color-accent)] opacity-60 group-hover:opacity-100 transition-opacity duration-500" />
+                <span className="font-cormorant font-light italic text-[var(--color-text-main)] text-xl md:text-2xl tracking-[0.15em] opacity-80 group-hover:opacity-100 group-hover:text-[var(--color-accent)] transition-all duration-500">
+                  @derawar_resort_
+                </span>
+              </motion.div>
+            </a>
+          </div>
+
+          {/* Design By Section */}
+          <div className="flex flex-col items-center gap-2">
+            <span className="font-inter font-thin tracking-[0.4em] text-[var(--color-text-muted)] text-[8px] uppercase opacity-30">
+              Design by
             </span>
-          </motion.div>
+            <a href="https://instagram.com/qreativemenus" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 opacity-40 hover:opacity-80 transition-opacity duration-500">
+              <Instagram strokeWidth={1} className="w-3 h-3 text-[var(--color-accent)]" />
+              <span className="font-inter font-thin tracking-[0.3em] text-[var(--color-accent)] text-[9px] uppercase">
+                @qreativemenus
+              </span>
+            </a>
+          </div>
         </motion.footer>
 
         </div>
