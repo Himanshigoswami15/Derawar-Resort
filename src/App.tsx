@@ -608,7 +608,7 @@ const menuData = [
     "items": [
       {
         "name": "Crispy Corn",
-        "price": "₹149",
+        "price": "₹119",
         "description": "Deep-fried sweet corn kernels tossed in spices.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Crispy%20corn%20recipe.jpg"
       },
