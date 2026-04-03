@@ -1267,10 +1267,31 @@ const TiltImage = ({ src, alt }: { src: string, alt: string }) => {
 export default function App() {
   const [activeCategory, setActiveCategory] = useState(menuData[0].category);
   const navRef = useRef<HTMLDivElement>(null);
+  const isScrollingRef = useRef(false);
+  const scrollTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (isScrollingRef.current) {
+        if (scrollTimeoutRef.current) clearTimeout(scrollTimeoutRef.current);
+        scrollTimeoutRef.current = setTimeout(() => {
+          isScrollingRef.current = false;
+        }, 150);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      if (scrollTimeoutRef.current) clearTimeout(scrollTimeoutRef.current);
+    };
+  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
+        if (isScrollingRef.current) return;
+        
         const visibleEntries = entries.filter(entry => entry.isIntersecting);
         if (visibleEntries.length > 0) {
           const mostVisible = visibleEntries.reduce((prev, current) => 
@@ -1321,7 +1342,20 @@ export default function App() {
             <a 
               key={idx} 
               href={`#${section.category.replace(/\s+/g, '-')}`}
-              onClick={() => setActiveCategory(section.category)}
+              onClick={(e) => {
+                e.preventDefault();
+                isScrollingRef.current = true;
+                setActiveCategory(section.category);
+                const element = document.getElementById(section.category.replace(/\s+/g, '-'));
+                if (element) {
+                  element.scrollIntoView({ behavior: 'smooth' });
+                  // Fallback in case scroll event doesn't fire
+                  if (scrollTimeoutRef.current) clearTimeout(scrollTimeoutRef.current);
+                  scrollTimeoutRef.current = setTimeout(() => {
+                    isScrollingRef.current = false;
+                  }, 2000);
+                }
+              }}
               className="group relative flex items-center justify-center w-6 h-6"
             >
               <div className={`w-1.5 h-1.5 rounded-full bg-[var(--color-accent)] transition-all duration-300 ${isActive ? 'opacity-100 scale-150 shadow-[0_0_10px_rgba(212,175,55,0.8)]' : 'opacity-30 group-hover:opacity-100 group-hover:scale-150'}`}></div>
@@ -1402,7 +1436,20 @@ export default function App() {
                     key={idx}
                     href={`#${section.category.replace(/\s+/g, '-')}`}
                     data-category={section.category}
-                    onClick={() => setActiveCategory(section.category)}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      isScrollingRef.current = true;
+                      setActiveCategory(section.category);
+                      const element = document.getElementById(section.category.replace(/\s+/g, '-'));
+                      if (element) {
+                        element.scrollIntoView({ behavior: 'smooth' });
+                        // Fallback in case scroll event doesn't fire
+                        if (scrollTimeoutRef.current) clearTimeout(scrollTimeoutRef.current);
+                        scrollTimeoutRef.current = setTimeout(() => {
+                          isScrollingRef.current = false;
+                        }, 2000);
+                      }
+                    }}
                     className={`px-5 py-2 rounded-full border transition-all duration-300 font-cinzel text-xs md:text-sm tracking-widest whitespace-nowrap flex-shrink-0 ${
                       isActive 
                         ? 'bg-[var(--color-accent)] text-[var(--color-bg)] border-[var(--color-accent)] shadow-[0_0_15px_rgba(212,175,55,0.4)]' 
