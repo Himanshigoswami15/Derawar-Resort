@@ -99,6 +99,36 @@ const menuData = [
         "image": "https://ik.imagekit.io/j1fgksdwx/Water%20bottles%20stock%20photo_%20Image%20of%20healthy,%20bottles%20-%2012522340.jpg?updatedAt=1772435361827"
       },
       {
+        "name": "Tea",
+        "price": "₹20",
+        "description": "Classic brewed black tea.",
+        "image": "https://ik.imagekit.io/j1fgksdwx/25%20Homemade%20Tea%20Recipes%20for%20a%20Perfect%20Brew.jpg"
+      },
+      {
+        "name": "Masala Tea",
+        "price": "₹30",
+        "description": "Spiced Indian tea with aromatic herbs.",
+        "image": "https://ik.imagekit.io/j1fgksdwx/Masala%20Chai%20(Spiced%20Tea)_Warm,%20spiced,%20and%20soul-soothing%20__%20The%20perfect%20sip%20to%20wind%20down%20the%20day__Why%20we%20love%20it_%20It_s%20bold,%20comforting,%20and%20fills%20your%20kitchen%20with%20cozy%20aromas.__.__MasalaChai%20_EveningSips%20_ChaiVibes"
+      },
+      {
+        "name": "Coffee",
+        "price": "₹35",
+        "description": "Freshly brewed hot coffee.",
+        "image": "https://ik.imagekit.io/j1fgksdwx/regular%20coffee.jpg?updatedAt=1759174155086"
+      },
+      {
+        "name": "Butter Milk",
+        "price": "₹25",
+        "description": "Refreshing spiced buttermilk.",
+        "image": "https://ik.imagekit.io/j1fgksdwx/How%20To%20Make%20Buttermilk%20From%20Curd_%20Follow%20This%20Step-By-Step%20Guide.jpg?updatedAt=1772435825026"
+      },
+      {
+        "name": "Masala Butter Milk",
+        "price": "₹30",
+        "description": "Spiced buttermilk with roasted cumin and herbs.",
+        "image": "https://ik.imagekit.io/j1fgksdwx/Buttermilk%20or%20Chaas,%20Indian%20Drink%20Stock%20Photo%20-%20Image%20of%20india,%20masala_%20143036046.jpg"
+      },
+      {
         "name": "Cold Coffee",
         "price": "₹100",
         "description": "Chilled blended coffee with milk.",
@@ -320,6 +350,12 @@ const menuData = [
   {
     "category": "Breakfast",
     "items": [
+      {
+        "name": "Chola Bhature 2 pc",
+        "price": "₹89",
+        "description": "Spicy chickpea curry served with two fluffy fried breads.",
+        "image": "https://ik.imagekit.io/j1fgksdwx/Download%20Chole%20bhature%20is%20a%20North%20Indian%20food%20dish_%20A%20combination%20of%20chana%20masala%20and%20bhatura%20or%20puri%20for%20free.jpg"
+      },
       {
         "name": "Butter Poha",
         "price": "₹50",
@@ -777,6 +813,17 @@ const menuData = [
         "price": "₹250",
         "description": "Soya chunks in a creamy and mild marinade.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Download%20vegetarian%20soya%20malai%20chaap%20made%20using%20soya%20chaap%20with%20white%20creamy%20gravy%20for%20free.jpg?updatedAt=1771395215799"
+      }
+    ]
+  },
+  {
+    "category": "Thali",
+    "items": [
+      {
+        "name": "Derawar Thali",
+        "price": "₹219",
+        "description": "Dal, Rice, Paneer Butter Masala, Mix Veg, 4 Tandoori Roti.",
+        "image": "https://ik.imagekit.io/j1fgksdwx/Traditional%20Indian%20Thali%20with%20Dal,%20Paneer%20Curry,%20Rice,%20Roti%20&%20Fresh%20Sides.jpg"
       }
     ]
   },
