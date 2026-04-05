@@ -23,6 +23,7 @@ body {
   color: var(--color-text-main);
   font-family: var(--font-inter);
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 body::before {

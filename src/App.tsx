@@ -1331,7 +1331,7 @@ export default function App() {
   }, [activeCategory]);
 
   return (
-    <div className="min-h-screen bg-texture relative">
+    <div className="min-h-screen bg-texture relative overflow-x-hidden">
       
       {/* Floating Navigation */}
       <div className="fixed right-6 top-1/2 -translate-y-1/2 z-50 hidden 2xl:flex flex-col gap-4 items-center">
