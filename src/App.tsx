@@ -1546,11 +1546,6 @@ export default function App() {
                         
                         <div className="h-px w-full bg-gradient-to-r from-[var(--color-accent-muted)] to-transparent opacity-30 mb-2"></div>
                         
-                        {item.description && (
-                          <p className="text-[var(--color-text-muted)] text-sm md:text-base font-inter italic opacity-80 mt-1">
-                            {item.description}
-                          </p>
-                        )}
                         <div className="mt-4 flex justify-center sm:justify-start">
                           <button
                             onClick={() => addToCart(item)}
