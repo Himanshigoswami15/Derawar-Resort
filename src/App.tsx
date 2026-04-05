@@ -1,6 +1,6 @@
-import { Instagram } from 'lucide-react';
+import { Instagram, ShoppingCart, X, Plus, Minus } from 'lucide-react';
 import React, { useRef, useEffect, useState } from 'react';
-import { motion, useMotionValue, useSpring, useTransform } from 'motion/react';
+import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from 'motion/react';
 
 const Ornament = () => (
   <svg width="120" height="24" viewBox="0 0 120 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="opacity-60">
@@ -1270,6 +1270,33 @@ export default function App() {
   const isScrollingRef = useRef(false);
   const scrollTimeoutRef = useRef<NodeJS.Timeout | null>(null);
 
+  const [cart, setCart] = useState<{name: string, price: number, quantity: number}[]>([]);
+  const [isCartOpen, setIsCartOpen] = useState(false);
+
+  const parsePrice = (priceStr: string) => parseInt(priceStr.replace(/[^\d]/g, ''), 10);
+
+  const addToCart = (item: {name: string, price: string}) => {
+    setCart(prev => {
+      const existing = prev.find(i => i.name === item.name);
+      if (existing) {
+        return prev.map(i => i.name === item.name ? { ...i, quantity: i.quantity + 1 } : i);
+      }
+      return [...prev, { name: item.name, price: parsePrice(item.price), quantity: 1 }];
+    });
+  };
+
+  const updateQuantity = (name: string, delta: number) => {
+    setCart(prev => prev.map(i => {
+      if (i.name === name) {
+        return { ...i, quantity: Math.max(0, i.quantity + delta) };
+      }
+      return i;
+    }).filter(i => i.quantity > 0));
+  };
+
+  const cartTotal = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
+  const cartCount = cart.reduce((sum, item) => sum + item.quantity, 0);
+
   useEffect(() => {
     const handleScroll = () => {
       if (isScrollingRef.current) {
@@ -1524,6 +1551,14 @@ export default function App() {
                             {item.description}
                           </p>
                         )}
+                        <div className="mt-4 flex justify-center sm:justify-start">
+                          <button
+                            onClick={() => addToCart(item)}
+                            className="px-4 py-1.5 border border-[var(--color-accent)]/50 text-[var(--color-accent)] rounded-full text-xs md:text-sm font-cinzel tracking-widest hover:bg-[var(--color-accent)] hover:text-[var(--color-bg-main)] transition-all duration-300 shadow-[0_0_10px_rgba(212,175,55,0.1)] hover:shadow-[0_0_20px_rgba(212,175,55,0.3)]"
+                          >
+                            Add to Cart
+                          </button>
+                        </div>
                       </div>
                   </motion.div>
                 ))}
@@ -1583,6 +1618,80 @@ export default function App() {
 
         </div>
       </div>
+
+      {/* Floating Cart Button */}
+      <button
+        onClick={() => setIsCartOpen(true)}
+        className="fixed bottom-6 right-6 z-50 bg-[var(--color-accent)] text-[var(--color-bg-main)] p-4 rounded-full shadow-[0_0_20px_rgba(212,175,55,0.4)] hover:scale-110 transition-transform duration-300"
+      >
+        <ShoppingCart size={24} />
+        {cartCount > 0 && (
+          <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs w-6 h-6 flex items-center justify-center rounded-full font-bold">
+            {cartCount}
+          </span>
+        )}
+      </button>
+
+      {/* Cart Sidebar */}
+      <AnimatePresence>
+        {isCartOpen && (
+          <>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setIsCartOpen(false)}
+              className="fixed inset-0 bg-black/60 z-[60] backdrop-blur-sm"
+            />
+            <motion.div
+              initial={{ x: '100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '100%' }}
+              transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+              className="fixed top-0 right-0 h-full w-full max-w-md bg-[var(--color-bg-card)] z-[70] shadow-2xl border-l border-[var(--color-accent)]/30 flex flex-col"
+            >
+              <div className="p-6 border-b border-[var(--color-accent)]/20 flex justify-between items-center">
+                <h2 className="font-cinzel text-2xl text-[var(--color-accent)]">Your Order</h2>
+                <button onClick={() => setIsCartOpen(false)} className="text-[var(--color-text-muted)] hover:text-[var(--color-accent)] transition-colors">
+                  <X size={24} />
+                </button>
+              </div>
+              
+              <div className="flex-1 overflow-y-auto p-6 space-y-6">
+                {cart.length === 0 ? (
+                  <p className="text-center text-[var(--color-text-muted)] font-inter italic mt-10">Your cart is empty.</p>
+                ) : (
+                  cart.map((item, idx) => (
+                    <div key={idx} className="flex justify-between items-center">
+                      <div>
+                        <h4 className="font-cormorant text-lg text-[var(--color-text-main)]">{item.name}</h4>
+                        <p className="font-inter text-sm text-[var(--color-accent)]">₹{item.price}</p>
+                      </div>
+                      <div className="flex items-center gap-3 border border-[var(--color-accent)]/30 rounded-full px-3 py-1">
+                        <button onClick={() => updateQuantity(item.name, -1)} className="text-[var(--color-accent)] hover:text-white transition-colors"><Minus size={14} /></button>
+                        <span className="font-inter text-sm w-4 text-center text-[var(--color-text-main)]">{item.quantity}</span>
+                        <button onClick={() => updateQuantity(item.name, 1)} className="text-[var(--color-accent)] hover:text-white transition-colors"><Plus size={14} /></button>
+                      </div>
+                    </div>
+                  ))
+                )}
+              </div>
+
+              <div className="p-6 border-t border-[var(--color-accent)]/20 bg-[var(--color-bg-main)]/50">
+                <div className="text-center p-4 border border-[var(--color-accent)]/30 rounded-xl bg-[var(--color-accent)]/5">
+                  <p className="font-cormorant text-lg text-[var(--color-text-main)] italic">
+                    Please review your selections.
+                  </p>
+                  <p className="font-inter text-sm text-[var(--color-accent-muted)] mt-2">
+                    Our attentive staff will take your order shortly.
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
+
     </div>
   );
 }
