@@ -144,7 +144,7 @@ const menuData = [
         "name": "Makhaniya Lassi",
         "price": "₹90",
         "description": "Rich, creamy yogurt drink with butter.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/download%20(3).jpg"
+        "image": "https://ik.imagekit.io/j1fgksdwx/Only%20for%20Lassi%20lovers_.._?updatedAt=1774361339798"
       }
     ]
   },
