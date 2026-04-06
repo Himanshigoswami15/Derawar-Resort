@@ -1068,7 +1068,7 @@ const menuData = [
       },
       {
         "name": "Paneer Bhurji",
-        "price": "₹2550",
+        "price": "₹250",
         "description": "Scrambled cottage cheese cooked with onions and tomatoes.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Paneer%20Bhurji.jpg?updatedAt=1772352406461"
       }
@@ -1209,7 +1209,7 @@ const menuData = [
       },
       {
         "name": "Tawa Chapati Plain",
-        "price": "₹150",
+        "price": "₹15",
         "description": "Simple whole wheat flatbread cooked on a griddle.",
         "image": "https://ik.imagekit.io/j1fgksdwx/tawa-roti-plate-with-wooden-background_950002-600777.jpg?updatedAt=1759150611343"
       },
