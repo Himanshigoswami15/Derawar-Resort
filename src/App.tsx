@@ -317,7 +317,7 @@ const menuData = [
       },
       {
         "name": "Fry Papad",
-        "price": "₹700",
+        "price": "₹70",
         "description": "Deep-fried crispy lentil wafer.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Papad_.jpg?updatedAt=17724348473685"
       },
