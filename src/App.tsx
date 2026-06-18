@@ -200,7 +200,7 @@ const menuData = [
       },
       {
         "name": "Veg Hot and Sour Soup",
-        "price": "₹170",
+        "price": "₹140",
         "description": "Spicy and tangy vegetable soup.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Vegetarian%20hot%20and%20sour%20soup%20is%20an%20easy%20to%20make%20meal%20for%20cold%20days_%20It%20is%20packed%20with%20vegetables,%20lightly%20seasoned%20and%20super%20comforting!.jpg"
       },
@@ -212,13 +212,13 @@ const menuData = [
       },
       {
         "name": "Cream of Tomato Soup",
-        "price": "₹200",
+        "price": "₹140",
         "description": "Rich and creamy tomato soup.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Roasted%20Tomato%20Soup.jpg"
       },
       {
         "name": "Cream of Mushroom Soup",
-        "price": "₹220",
+        "price": "₹199",
         "description": "Velvety soup with fresh mushrooms.",
         "image": "https://ik.imagekit.io/j1fgksdwx/CREAM%20OF%20MUSHROOM%20SOUP.jpg?updatedAt=1759147132959"
       },
@@ -282,7 +282,7 @@ const menuData = [
       },
       {
         "name": "Veg Cheese Spring Roll",
-        "price": "₹250",
+        "price": "₹220",
         "description": "Crispy rolls with vegetables and cheese.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Cheese%20Spring%20Rolls.jpg"
       },
@@ -294,7 +294,7 @@ const menuData = [
       },
       {
         "name": "Paneer Roll",
-        "price": "₹220",
+        "price": "₹250",
         "description": "Spiced cottage cheese wrapped in a flatbread.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Paneer%20Kathi%20Roll.jpg?updatedAt=1772709608129"
       }
@@ -317,13 +317,13 @@ const menuData = [
       },
       {
         "name": "Fry Papad",
-        "price": "₹70",
+        "price": "₹40",
         "description": "Deep-fried crispy lentil wafer.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Papad_.jpg?updatedAt=1772434847368"
       },
       {
         "name": "Fry Masala Papad",
-        "price": "₹100",
+        "price": "₹80",
         "description": "Fried wafer with spicy vegetable topping.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Masala%20Papad%20(2).jpg"
       },
@@ -352,7 +352,7 @@ const menuData = [
     "items": [
       {
         "name": "Chola Bhature 2 pc",
-        "price": "₹219",
+        "price": "₹149",
         "description": "Spicy chickpea curry served with two fluffy fried breads.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Download%20Chole%20bhature%20is%20a%20North%20Indian%20food%20dish_%20A%20combination%20of%20chana%20masala%20and%20bhatura%20or%20puri%20for%20free.jpg"
       },
@@ -417,25 +417,25 @@ const menuData = [
     "items": [
       {
         "name": "Aloo Paratha",
-        "price": "₹120",
+        "price": "₹90",
         "description": "Whole wheat flatbread stuffed with spiced potatoes.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Aloo%20Paratha%20Full%20Recipe%20in%20English%20_.jpg"
       },
       {
         "name": "Gobi Paratha",
-        "price": "₹119",
+        "price": "₹100",
         "description": "Flatbread stuffed with spiced cauliflower.",
         "image": "https://ik.imagekit.io/j1fgksdwx/How%20to%20Make%20Gobi%20Paratha%20_%20Easy%20Stuffed%20Paratha%20Recipe.jpg"
       },
       {
         "name": "Paneer Paratha",
-        "price": "₹150",
+        "price": "₹130",
         "description": "Flatbread stuffed with seasoned cottage cheese.",
         "image": "https://ik.imagekit.io/j1fgksdwx/PANEER%20PARATHA%20WITH%20CURD.jpg?updatedAt=1759175503156"
       },
       {
         "name": "Mix Veg Paratha",
-        "price": "₹100",
+        "price": "₹120",
         "description": "Flatbread stuffed with mixed vegetables.",
         "image": "https://ik.imagekit.io/j1fgksdwx/download%20(3).jpg"
       },
@@ -458,19 +458,19 @@ const menuData = [
     "items": [
       {
         "name": "Plain Maggie",
-        "price": "₹80",
+        "price": "₹50",
         "description": "Classic instant noodles.",
         "image": "https://ik.imagekit.io/j1fgksdwx/If%20you_ve%20got%20a%20pack%20of%20instant%20ramen%20and%20a%20slice%20of%20cheese%20in%20your%20fridge,%20you're%20already%20halfway%20to%20making%20one%20of%20my%20favorite%20guilty-pleas.%20Perfect%20for%20late-night%20cravings%20or%20those%20days%20when%20dinner%20feels%20like%20a%20chore_"
       },
       {
         "name": "Masala Maggie",
-        "price": "₹100",
+        "price": "₹70",
         "description": "Instant noodles cooked with extra spices.",
         "image": "https://ik.imagekit.io/j1fgksdwx/download%20(6).jpg?updatedAt=1774409252984"
       },
       {
         "name": "Cheese Maggie",
-        "price": "₹119",
+        "price": "₹90",
         "description": "Cheesy and creamy instant noodles.",
         "image": "https://ik.imagekit.io/j1fgksdwx/download%20(7).jpg"
       }
@@ -493,13 +493,13 @@ const menuData = [
       },
       {
         "name": "Paneer Pakoda 10pc",
-        "price": "₹200",
+        "price": "₹150",
         "description": "Cottage cheese cubes fried in spiced batter.",
         "image": "https://ik.imagekit.io/j1fgksdwx/PANEER%20PAKORA.webp?updatedAt=1758292956189"
       },
       {
         "name": "Mix Veg Pakoda 10pc",
-        "price": "₹150",
+        "price": "₹120",
         "description": "Assorted vegetable fritters.",
         "image": "https://ik.imagekit.io/j1fgksdwx/MIX%20VEG.%20PAKORA.jpeg?updatedAt=1758293753579"
       }
@@ -516,13 +516,13 @@ const menuData = [
       },
       {
         "name": "Veg Grill Sandwich",
-        "price": "₹149",
+        "price": "₹119",
         "description": "Grilled sandwich with mixed vegetables.",
         "image": "https://ik.imagekit.io/j1fgksdwx/veg%20grill%20sandwixh.webp?updatedAt=1758211144373"
       },
       {
         "name": "Veg Cheese Sandwich",
-        "price": "₹199",
+        "price": "₹140",
         "description": "Vegetable sandwich loaded with cheese.",
         "image": "https://ik.imagekit.io/j1fgksdwx/cheese%20sandwich.webp?updatedAt=1758211132553"
       },
@@ -534,7 +534,7 @@ const menuData = [
       },
       {
         "name": "Veg Club Sandwich",
-        "price": "₹250",
+        "price": "₹180",
         "description": "Multi-layered sandwich with veggies and cheese.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Merrie%20Berrie%20Veg%20Club%20(Three%20Layerd%20Sandwich,Vegetable%20Patty,Sliced%20Veg%20Cheese%20&%20Mayo).jpg"
       }
@@ -568,7 +568,7 @@ const menuData = [
       },
       {
         "name": "Cheese Margarita Pizza",
-        "price": "₹220",
+        "price": "₹199",
         "description": "Classic pizza with rich tomato sauce and cheese.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Delicious%20Margherita%20Pizza_%20Classic%20Flavor%20with%20Fresh%20Mozzarella,%20Basil,%20and%20Cherry%20Tomatoes.jpg"
       },
@@ -592,7 +592,7 @@ const menuData = [
       },
       {
         "name": "Sweet Corn Cheese pizza",
-        "price": "₹119",
+        "price": "₹150",
         "description": "Pizza topped with sweet corn and cheese.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Corn%20&%20Cheese%20Pizza.jpg"
       },
@@ -604,7 +604,7 @@ const menuData = [
       },
       {
         "name": "Paneer Tikka Pizza",
-        "price": "₹150",
+        "price": "₹199",
         "description": "Pizza topped with tandoori paneer tikka.",
         "image": "https://ik.imagekit.io/j1fgksdwx/download%20(12).jpg"
       }
@@ -615,19 +615,19 @@ const menuData = [
     "items": [
       {
         "name": "White Sauce Pasta",
-        "price": "₹149",
+        "price": "₹180",
         "description": "Pasta tossed in a creamy and cheesy white sauce.",
         "image": "https://ik.imagekit.io/j1fgksdwx/White%20Sauce%20Pasta%20(Bechamel%20Sauce%20Pasta).jpg"
       },
       {
         "name": "Red Sauce Pasta",
-        "price": "₹180",
+        "price": "₹149",
         "description": "Pasta tossed in a tangy and spicy tomato sauce.",
         "image": "https://ik.imagekit.io/j1fgksdwx/arrabita%20pasta.webp?updatedAt=1758211132567"
       },
       {
         "name": "Pink Sauce Pasta",
-        "price": "₹219",
+        "price": "₹149",
         "description": "Pasta in a mix of creamy white and tangy red sauce.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Pink%20Sauce%20Pasta%20_%20Skinny%20Spatula.jpg"
       }
@@ -638,43 +638,43 @@ const menuData = [
     "items": [
       {
         "name": "Crispy Corn",
-        "price": "₹150",
+        "price": "₹180",
         "description": "Deep-fried sweet corn kernels tossed in spices.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Crispy%20corn%20recipe.jpg"
       },
       {
         "name": "American Corn",
-        "price": "₹200",
+        "price": "₹150",
         "description": "Buttered and seasoned sweet corn.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Crispy%20Corn%20Recipe%20(Crunchy%20Corn%20Snack)%20-%20Swasthi's%20Recipes.jpg"
       },
       {
         "name": "French Fry",
-        "price": "₹140",
+        "price": "₹100",
         "description": "Classic crispy deep-fried potato strips.",
         "image": "https://ik.imagekit.io/j1fgksdwx/french%20fries.webp?updatedAt=1758211132814"
       },
       {
         "name": "Peri Peri French Fry",
-        "price": "₹160",
+        "price": "₹120",
         "description": "French fries tossed in spicy peri peri seasoning.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Peri%20Peri%20Fries__.jpg?updatedAt=1771257841371"
       },
       {
         "name": "Honey Chilli Potato",
-        "price": "₹250",
+        "price": "₹180",
         "description": "Crispy potatoes tossed in a sweet and spicy sauce.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Chinese-style%20Honey%20Chilli%20Potato%20Recipe.jpg"
       },
       {
         "name": "Chili Paneer Dry",
-        "price": "₹270",
+        "price": "₹190",
         "description": "Spicy stir-fried cottage cheese cubes.",
         "image": "https://ik.imagekit.io/j1fgksdwx/chilli%20panner.jpeg?updatedAt=1758292957291"
       },
       {
         "name": "Chili Paneer Gravy",
-        "price": "₹260",
+        "price": "₹220",
         "description": "Cottage cheese in a spicy Indo-Chinese gravy.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Sometimes%20all%20you%20need%20is%20Chilli%20Paneer%20_%20_%20.%20.%20.%20.%20%20%20_countrykitchen%20_chillipaneer%20_foodiesays?updatedAt=1771913129595"
       },
@@ -686,7 +686,7 @@ const menuData = [
       },
       {
         "name": "Mushroom Chili",
-        "price": "₹250",
+        "price": "₹199",
         "description": "Spicy stir-fried mushrooms with bell peppers.",
         "image": "https://ik.imagekit.io/j1fgksdwx/download%20(14).jpg"
       },
@@ -698,19 +698,19 @@ const menuData = [
       },
       {
         "name": "Paneer 65",
-        "price": "₹280",
+        "price": "₹250",
         "description": "Spicy, deep-fried South Indian style paneer.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Paneer%2065%20Fry%20Recipe%20(Better%20than%20Restaurant)%20-%20Swasthi's%20Recipes.jpg?updatedAt=1771913234865"
       },
       {
         "name": "Manchurian Dry 12pc",
-        "price": "₹199",
+        "price": "₹150",
         "description": "Crispy vegetable balls tossed in soy-garlic sauce.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Veg%20Manchurian!.jpg"
       },
       {
         "name": "Manchurian Gravy 10pc",
-        "price": "₹150",
+        "price": "₹160",
         "description": "Vegetable balls in a savory Indo-Chinese gravy.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Indian%20Khana_%20Vegetable%20Manchurian%20Gravy%20Recipe%20_%20Veg%20Manchurian%20_%20Indo-Chinese%20Recipes.jpg?updatedAt=1771913487864"
       },
@@ -733,13 +733,13 @@ const menuData = [
       },
       {
         "name": "Veg Chowmein",
-        "price": "₹200",
+        "price": "₹180",
         "description": "Classic Indian street-style stir-fried noodles.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Cantonese%20Chow%20Mein_%20An%20Incredible%20Ultimate%20Recipe.jpg"
       },
       {
         "name": "Schezwan Noodles",
-        "price": "₹240",
+        "price": "₹190",
         "description": "Spicy noodles tossed in Schezwan sauce.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Schezwan%20Mushroom%20Noodles.jpg"
       },
@@ -780,7 +780,7 @@ const menuData = [
       },
       {
         "name": "Paneer Punjabi Tikka",
-        "price": "₹170",
+        "price": "₹320",
         "description": "Spicy and robust Punjabi style grilled paneer.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Paneer%20Tikka.jpg"
       },
@@ -810,17 +810,7 @@ const menuData = [
       }
     ]
   },
-  {
-    "category": "Thali",
-    "items": [
-      {
-        "name": "Derawar Thali",
-        "price": "₹250",
-        "description": "Dal, Rice, Paneer Butter Masala, Mix Veg, 4 Tandoori Roti.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/Traditional%20Indian%20Thali%20with%20Dal,%20Paneer%20Curry,%20Rice,%20Roti%20&%20Fresh%20Sides.jpg"
-      }
-    ]
-  },
+  
   {
     "category": "Dal",
     "items": [
@@ -844,13 +834,13 @@ const menuData = [
       },
       {
         "name": "Punjabi Dal Tadka",
-        "price": "₹150",
+        "price": "₹200",
         "description": "Spicy and robust Punjabi style tempered lentils.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Punjabi%20Toor%20Dal%20Tadka%20and%20rice%20is%20the%20ultimate%20comfort%20food.jpg?updatedAt=1772360785394"
       },
       {
         "name": "Dal Panch Ratan",
-        "price": "₹179",
+        "price": "₹250",
         "description": "A mix of five lentils cooked with aromatic spices.",
         "image": "https://ik.imagekit.io/j1fgksdwx/download%20(17).jpg?updatedAt=1774455827978"
       }
@@ -885,7 +875,7 @@ const menuData = [
       },
       {
         "name": "Fry Raita",
-        "price": "₹199",
+        "price": "₹149",
         "description": "Tempered yogurt with spices.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Spiced%20Dahi%20tadka_Tempered%20Yogurt%20curry.jpg"
       },
@@ -1013,12 +1003,6 @@ const menuData = [
         "image": "https://ik.imagekit.io/j1fgksdwx/Best%20Paneer%20Pasanda%20Recipe%20(Restaurant%20Style)%20-%20Cubes%20N%20Juliennes.jpg?updatedAt=1772296547456"
       },
       {
-        "name": "Derawar Special 3 (Varieties)",
-        "price": "₹599",
-        "description": "Our chef's special trio of signature paneer dishes.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/unnamed.jpg?updatedAt=1772297253689"
-      },
-      {
         "name": "Paneer 2 Pyaza",
         "price": "₹230",
         "description": "Cottage cheese cooked with double the amount of onions.",
@@ -1103,13 +1087,13 @@ const menuData = [
       },
       {
         "name": "Schezwan Fry Rice",
-        "price": "₹220",
+        "price": "₹200",
         "description": "Spicy stir-fried rice with Schezwan sauce.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Szechwan%20Fried%20Rice.jpg?updatedAt=1772709070579"
       },
       {
         "name": "Manchurian Fried Rice",
-        "price": "₹180",
+        "price": "₹230",
         "description": "Fried rice served with vegetable Manchurian.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Vegetable%20Manchurian%20Fried%20Rice%20(1).jpg"
       }
@@ -1120,13 +1104,13 @@ const menuData = [
     "items": [
       {
         "name": "Veg Biryani",
-        "price": "₹250",
+        "price": "₹200",
         "description": "Aromatic basmati rice cooked with mixed vegetables and spices.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Easy%20Vegetable%20Biryani.jpg"
       },
       {
         "name": "Veg Hydrabadi Biryani",
-        "price": "₹200",
+        "price": "₹250",
         "description": "Spicy and flavorful authentic Hyderabadi style biryani.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Easy%20Restaurant-style%20Vegetable%20Biryani%20Recipe%20-%20Sandhya's%20Kitchen.jpg"
       },
@@ -1143,13 +1127,13 @@ const menuData = [
     "items": [
       {
         "name": "Tandoori Roti Plain",
-        "price": "₹25",
+        "price": "₹20",
         "description": "Whole wheat flatbread baked in a clay oven.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Roti%20(tandoori).jpg"
       },
       {
         "name": "Tandoori Roti Butter",
-        "price": "₹30",
+        "price": "₹25",
         "description": "Clay oven baked flatbread topped with butter.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Tandoori%20Roti.webp?updatedAt=1759150702455"
       },
@@ -1173,13 +1157,13 @@ const menuData = [
       },
       {
         "name": "Lacha Parantha",
-        "price": "₹119",
+        "price": "₹50",
         "description": "Multi-layered flaky whole wheat flatbread.",
         "image": "https://ik.imagekit.io/j1fgksdwx/lachha%20parathan.jpeg?updatedAt=1759147343079"
       },
       {
         "name": "Tandoori Stuff Kulcha",
-        "price": "₹219",
+        "price": "₹120",
         "description": "Stuffed leavened bread baked in a clay oven.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Paneer%20and%20Cheese%20Stuffed%20Kulcha%20-%20Bliss%20of%20Cooking.jpg"
       },
@@ -1197,28 +1181,17 @@ const menuData = [
       },
       {
         "name": "Tawa Chapati Plain",
-        "price": "₹20",
+        "price": "₹15",
         "description": "Simple whole wheat flatbread cooked on a griddle.",
         "image": "https://ik.imagekit.io/j1fgksdwx/tawa-roti-plate-with-wooden-background_950002-600777.jpg?updatedAt=1759150611343"
       },
       {
         "name": "Tawa Chapati Butter",
-        "price": "₹25",
+        "price": "₹20",
         "description": "Griddle-cooked flatbread brushed with butter.",
         "image": "https://ik.imagekit.io/j1fgksdwx/Soft%20Indian%20Roti%20(Chapati)%20Recipe%20_%20Easy%20&%20Authentic%20By%20Maple%20Kitchen.jpg?updatedAt=1772363469620"
       },
 
-    ]
-  },
-  {
-    "category": "Rajasthani Special",
-    "items": [
-      {
-        "name": "Dal Bati Churma",
-        "price": "₹350",
-        "description": "Traditional Rajasthani meal of lentils, baked wheat balls, and sweet crumbled cereal.",
-        "image": "https://ik.imagekit.io/j1fgksdwx/Dal%20Baati%20Churma.jpg"
-      }
     ]
   }
 ];
