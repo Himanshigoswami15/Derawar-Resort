@@ -7,3 +7,4 @@
     { "source": "/admin/(.*)", "destination": "/index.html" }
   ]
 }
+

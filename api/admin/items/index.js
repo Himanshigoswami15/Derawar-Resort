@@ -1,6 +1,6 @@
-const { getPool, checkAuth } = require('../_db');
+import { getPool, checkAuth } from '../_db.js';
 
-module.exports = async function handler(req, res) {
+export default async function handler(req, res) {
   if (!checkAuth(req)) {
     return res.status(401).json({ error: 'Unauthorized' });
   }
@@ -37,4 +37,4 @@ module.exports = async function handler(req, res) {
   } else {
     res.status(405).json({ error: 'Method not allowed' });
   }
-};
+}

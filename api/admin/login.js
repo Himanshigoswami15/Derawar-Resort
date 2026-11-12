@@ -1,6 +1,6 @@
-const { ADMIN_PASSWORD } = require('../_db');
+import { ADMIN_PASSWORD } from '../_db.js';
 
-module.exports = async function handler(req, res) {
+export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Method not allowed' });
   }
@@ -11,4 +11,4 @@ module.exports = async function handler(req, res) {
   } else {
     res.status(401).json({ error: 'Invalid password' });
   }
-};
+}
